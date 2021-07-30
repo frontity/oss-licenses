@@ -1,0 +1,4277 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Frontity Docs</title>
+        <style>
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+        
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <link rel="stylesheet" href="https://github-markdown-styles.vercel.app/">
+        
+        
+    </head>
+    <body class="vscode-light">
+        <h1 id="frontity-docs">Frontity Docs</h1>
+<p>Code:</p>
+<ul>
+<li><a href="https://github.com/frontity/docs">https://github.com/frontity/docs</a></li>
+<li><a href="https://github.com/frontity/api-reference">https://github.com/frontity/api-reference</a></li>
+<li><a href="https://github.com/frontity/step-by-step-tutorial">https://github.com/frontity/step-by-step-tutorial</a></li>
+</ul>
+<p>Updated: 2021-07-30</p>
+<h2 id="1-project-license">1. Project License</h2>
+<pre><code>                             Apache License
+                       Version 2.0, January 2004
+                    http://www.apache.org/licenses/
+</code></pre>
+<p>TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION</p>
+<ol>
+<li>
+<p>Definitions.</p>
+<p>&quot;License&quot; shall mean the terms and conditions for use, reproduction,<br>
+and distribution as defined by Sections 1 through 9 of this document.</p>
+<p>&quot;Licensor&quot; shall mean the copyright owner or entity authorized by<br>
+the copyright owner that is granting the License.</p>
+<p>&quot;Legal Entity&quot; shall mean the union of the acting entity and all<br>
+other entities that control, are controlled by, or are under common<br>
+control with that entity. For the purposes of this definition,<br>
+&quot;control&quot; means (i) the power, direct or indirect, to cause the<br>
+direction or management of such entity, whether by contract or<br>
+otherwise, or (ii) ownership of fifty percent (50%) or more of the<br>
+outstanding shares, or (iii) beneficial ownership of such entity.</p>
+<p>&quot;You&quot; (or &quot;Your&quot;) shall mean an individual or Legal Entity<br>
+exercising permissions granted by this License.</p>
+<p>&quot;Source&quot; form shall mean the preferred form for making modifications,<br>
+including but not limited to software source code, documentation<br>
+source, and configuration files.</p>
+<p>&quot;Object&quot; form shall mean any form resulting from mechanical<br>
+transformation or translation of a Source form, including but<br>
+not limited to compiled object code, generated documentation,<br>
+and conversions to other media types.</p>
+<p>&quot;Work&quot; shall mean the work of authorship, whether in Source or<br>
+Object form, made available under the License, as indicated by a<br>
+copyright notice that is included in or attached to the work<br>
+(an example is provided in the Appendix below).</p>
+<p>&quot;Derivative Works&quot; shall mean any work, whether in Source or Object<br>
+form, that is based on (or derived from) the Work and for which the<br>
+editorial revisions, annotations, elaborations, or other modifications<br>
+represent, as a whole, an original work of authorship. For the purposes<br>
+of this License, Derivative Works shall not include works that remain<br>
+separable from, or merely link (or bind by name) to the interfaces of,<br>
+the Work and Derivative Works thereof.</p>
+<p>&quot;Contribution&quot; shall mean any work of authorship, including<br>
+the original version of the Work and any modifications or additions<br>
+to that Work or Derivative Works thereof, that is intentionally<br>
+submitted to Licensor for inclusion in the Work by the copyright owner<br>
+or by an individual or Legal Entity authorized to submit on behalf of<br>
+the copyright owner. For the purposes of this definition, &quot;submitted&quot;<br>
+means any form of electronic, verbal, or written communication sent<br>
+to the Licensor or its representatives, including but not limited to<br>
+communication on electronic mailing lists, source code control systems,<br>
+and issue tracking systems that are managed by, or on behalf of, the<br>
+Licensor for the purpose of discussing and improving the Work, but<br>
+excluding communication that is conspicuously marked or otherwise<br>
+designated in writing by the copyright owner as &quot;Not a Contribution.&quot;</p>
+<p>&quot;Contributor&quot; shall mean Licensor and any individual or Legal Entity<br>
+on behalf of whom a Contribution has been received by Licensor and<br>
+subsequently incorporated within the Work.</p>
+</li>
+<li>
+<p>Grant of Copyright License. Subject to the terms and conditions of<br>
+this License, each Contributor hereby grants to You a perpetual,<br>
+worldwide, non-exclusive, no-charge, royalty-free, irrevocable<br>
+copyright license to reproduce, prepare Derivative Works of,<br>
+publicly display, publicly perform, sublicense, and distribute the<br>
+Work and such Derivative Works in Source or Object form.</p>
+</li>
+<li>
+<p>Grant of Patent License. Subject to the terms and conditions of<br>
+this License, each Contributor hereby grants to You a perpetual,<br>
+worldwide, non-exclusive, no-charge, royalty-free, irrevocable<br>
+(except as stated in this section) patent license to make, have made,<br>
+use, offer to sell, sell, import, and otherwise transfer the Work,<br>
+where such license applies only to those patent claims licensable<br>
+by such Contributor that are necessarily infringed by their<br>
+Contribution(s) alone or by combination of their Contribution(s)<br>
+with the Work to which such Contribution(s) was submitted. If You<br>
+institute patent litigation against any entity (including a<br>
+cross-claim or counterclaim in a lawsuit) alleging that the Work<br>
+or a Contribution incorporated within the Work constitutes direct<br>
+or contributory patent infringement, then any patent licenses<br>
+granted to You under this License for that Work shall terminate<br>
+as of the date such litigation is filed.</p>
+</li>
+<li>
+<p>Redistribution. You may reproduce and distribute copies of the<br>
+Work or Derivative Works thereof in any medium, with or without<br>
+modifications, and in Source or Object form, provided that You<br>
+meet the following conditions:</p>
+<p>(a) You must give any other recipients of the Work or<br>
+Derivative Works a copy of this License; and</p>
+<p>(b) You must cause any modified files to carry prominent notices<br>
+stating that You changed the files; and</p>
+<p>(c) You must retain, in the Source form of any Derivative Works<br>
+that You distribute, all copyright, patent, trademark, and<br>
+attribution notices from the Source form of the Work,<br>
+excluding those notices that do not pertain to any part of<br>
+the Derivative Works; and</p>
+<p>(d) If the Work includes a &quot;NOTICE&quot; text file as part of its<br>
+distribution, then any Derivative Works that You distribute must<br>
+include a readable copy of the attribution notices contained<br>
+within such NOTICE file, excluding those notices that do not<br>
+pertain to any part of the Derivative Works, in at least one<br>
+of the following places: within a NOTICE text file distributed<br>
+as part of the Derivative Works; within the Source form or<br>
+documentation, if provided along with the Derivative Works; or,<br>
+within a display generated by the Derivative Works, if and<br>
+wherever such third-party notices normally appear. The contents<br>
+of the NOTICE file are for informational purposes only and<br>
+do not modify the License. You may add Your own attribution<br>
+notices within Derivative Works that You distribute, alongside<br>
+or as an addendum to the NOTICE text from the Work, provided<br>
+that such additional attribution notices cannot be construed<br>
+as modifying the License.</p>
+<p>You may add Your own copyright statement to Your modifications and<br>
+may provide additional or different license terms and conditions<br>
+for use, reproduction, or distribution of Your modifications, or<br>
+for any such Derivative Works as a whole, provided Your use,<br>
+reproduction, and distribution of the Work otherwise complies with<br>
+the conditions stated in this License.</p>
+</li>
+<li>
+<p>Submission of Contributions. Unless You explicitly state otherwise,<br>
+any Contribution intentionally submitted for inclusion in the Work<br>
+by You to the Licensor shall be under the terms and conditions of<br>
+this License, without any additional terms or conditions.<br>
+Notwithstanding the above, nothing herein shall supersede or modify<br>
+the terms of any separate license agreement you may have executed<br>
+with Licensor regarding such Contributions.</p>
+</li>
+<li>
+<p>Trademarks. This License does not grant permission to use the trade<br>
+names, trademarks, service marks, or product names of the Licensor,<br>
+except as required for reasonable and customary use in describing the<br>
+origin of the Work and reproducing the content of the NOTICE file.</p>
+</li>
+<li>
+<p>Disclaimer of Warranty. Unless required by applicable law or<br>
+agreed to in writing, Licensor provides the Work (and each<br>
+Contributor provides its Contributions) on an &quot;AS IS&quot; BASIS,<br>
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or<br>
+implied, including, without limitation, any warranties or conditions<br>
+of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A<br>
+PARTICULAR PURPOSE. You are solely responsible for determining the<br>
+appropriateness of using or redistributing the Work and assume any<br>
+risks associated with Your exercise of permissions under this License.</p>
+</li>
+<li>
+<p>Limitation of Liability. In no event and under no legal theory,<br>
+whether in tort (including negligence), contract, or otherwise,<br>
+unless required by applicable law (such as deliberate and grossly<br>
+negligent acts) or agreed to in writing, shall any Contributor be<br>
+liable to You for damages, including any direct, indirect, special,<br>
+incidental, or consequential damages of any character arising as a<br>
+result of this License or out of the use or inability to use the<br>
+Work (including but not limited to damages for loss of goodwill,<br>
+work stoppage, computer failure or malfunction, or any and all<br>
+other commercial damages or losses), even if such Contributor<br>
+has been advised of the possibility of such damages.</p>
+</li>
+<li>
+<p>Accepting Warranty or Additional Liability. While redistributing<br>
+the Work or Derivative Works thereof, You may choose to offer,<br>
+and charge a fee for, acceptance of support, warranty, indemnity,<br>
+or other liability obligations and/or rights consistent with this<br>
+License. However, in accepting such obligations, You may act only<br>
+on Your own behalf and on Your sole responsibility, not on behalf<br>
+of any other Contributor, and only if You agree to indemnify,<br>
+defend, and hold each Contributor harmless for any liability<br>
+incurred by, or claims asserted against, such Contributor by reason<br>
+of your accepting any such warranty or additional liability.</p>
+</li>
+</ol>
+<p>END OF TERMS AND CONDITIONS</p>
+<p>APPENDIX: How to apply the Apache License to your work.</p>
+<pre><code>  To apply the Apache License to your work, attach the following
+  boilerplate notice, with the fields enclosed by brackets &quot;[]&quot;
+  replaced with your own identifying information. (Don't include
+  the brackets!)  The text should be enclosed in the appropriate
+  comment syntax for the file format. We also recommend that a
+  file or class name and description of purpose be included on the
+  same &quot;printed page&quot; as the copyright notice for easier
+  identification within third-party archives.
+</code></pre>
+<p>Copyright 2018 Worona Labs SL</p>
+<p>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);<br>
+you may not use this file except in compliance with the License.<br>
+You may obtain a copy of the License at</p>
+<pre><code>   http://www.apache.org/licenses/LICENSE-2.0
+</code></pre>
+<p>Unless required by applicable law or agreed to in writing, software<br>
+distributed under the License is distributed on an &quot;AS IS&quot; BASIS,<br>
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.<br>
+See the License for the specific language governing permissions and<br>
+limitations under the License.</p>
+<h2 id="2-dependency-licenses">2. Dependency Licenses</h2>
+<h3 id="21-ordered-by-license">2.1 Ordered by license</h3>
+<p>LICENSES:<br>
+├─┬ BSD-3-Clause<br>
+│ ├── @azu/format-text@1.0.1<br>
+│ ├── bcrypt-pbkdf@1.0.2<br>
+│ ├── charenc@0.0.2<br>
+│ ├── crypt@0.0.2<br>
+│ ├── diff@4.0.2<br>
+│ ├── isemail@3.2.0<br>
+│ ├── md5@2.3.0<br>
+│ ├── qs@6.5.2<br>
+│ ├── source-map@0.6.1<br>
+│ ├── sprintf-js@1.0.3<br>
+│ ├── table@3.8.3<br>
+│ └── tough-cookie@2.5.0<br>
+├─┬ WTFPL<br>
+│ └── @azu/style-format@1.0.0<br>
+├─┬ MIT<br>
+│ ├── @babel/code-frame@7.14.5<br>
+│ ├── @babel/helper-validator-identifier@7.14.8<br>
+│ ├── @babel/highlight@7.14.5<br>
+│ ├── @textlint/ast-node-types@4.4.3<br>
+│ ├── @textlint/ast-tester@2.3.5<br>
+│ ├── @textlint/ast-traverse@2.3.5<br>
+│ ├── @textlint/feature-flag@3.3.5<br>
+│ ├── @textlint/fixer-formatter@3.3.5<br>
+│ ├── @textlint/kernel@3.4.5<br>
+│ ├── @textlint/linter-formatter@3.3.5<br>
+│ ├── @textlint/markdown-to-ast@6.3.5<br>
+│ ├── @textlint/module-interop@1.2.5<br>
+│ ├── @textlint/source-code-fixer@3.4.5<br>
+│ ├── @textlint/text-to-ast@3.3.5<br>
+│ ├── @textlint/textlint-plugin-markdown@5.3.5<br>
+│ ├── @textlint/textlint-plugin-text@4.3.5<br>
+│ ├── @textlint/types@1.5.5<br>
+│ ├── @textlint/utils@1.2.5<br>
+│ ├── @types/parse-json@4.0.0<br>
+│ ├── aggregate-error@3.1.0<br>
+│ ├── ajv@4.11.8<br>
+│ ├── ajv@6.12.6<br>
+│ ├── ajv-keywords@1.5.1<br>
+│ ├── ansi-colors@4.1.1<br>
+│ ├── ansi-escapes@4.3.2<br>
+│ ├── ansi-red@0.1.1<br>
+│ ├── ansi-regex@2.1.1<br>
+│ ├── ansi-regex@3.0.0<br>
+│ ├── ansi-regex@5.0.0<br>
+│ ├── ansi-styles@2.2.1<br>
+│ ├── ansi-styles@3.2.1<br>
+│ ├── ansi-styles@4.3.0<br>
+│ ├── ansi-wrap@0.1.0<br>
+│ ├── argparse@1.0.10<br>
+│ ├── asn1@0.2.4<br>
+│ ├── assert-plus@1.0.0<br>
+│ ├── astral-regex@2.0.0<br>
+│ ├── async@3.2.0<br>
+│ ├── asynckit@0.4.0<br>
+│ ├── autolinker@0.28.1<br>
+│ ├── aws4@1.11.0<br>
+│ ├── bail@1.0.5<br>
+│ ├── balanced-match@1.0.2<br>
+│ ├── brace-expansion@1.1.11<br>
+│ ├── braces@3.0.2<br>
+│ ├── buffer-from@1.1.2<br>
+│ ├── call-bind@1.0.2<br>
+│ ├── callsites@3.1.0<br>
+│ ├── chalk@1.1.3<br>
+│ ├── chalk@2.4.2<br>
+│ ├── chalk@4.1.2<br>
+│ ├── character-entities@1.2.4<br>
+│ ├── character-entities-legacy@1.1.4<br>
+│ ├── character-reference-invalid@1.1.4<br>
+│ ├── ci-info@2.0.0<br>
+│ ├── clean-stack@2.2.0<br>
+│ ├── cli-cursor@3.1.0<br>
+│ ├── cli-truncate@2.1.0<br>
+│ ├── co@4.6.0<br>
+│ ├── code-point-at@1.1.0<br>
+│ ├── coffee-script@1.12.7<br>
+│ ├── collapse-white-space@1.0.6<br>
+│ ├── color-convert@1.9.3<br>
+│ ├── color-convert@2.0.1<br>
+│ ├── color-name@1.1.3<br>
+│ ├── color-name@1.1.4<br>
+│ ├── colorette@1.2.2<br>
+│ ├── combined-stream@1.0.8<br>
+│ ├── commander@6.2.1<br>
+│ ├── compare-versions@3.6.0<br>
+│ ├── concat-map@0.0.1<br>
+│ ├── concat-stream@1.6.2<br>
+│ ├── core-util-is@1.0.2<br>
+│ ├── cosmiconfig@7.0.0<br>
+│ ├── cross-spawn@7.0.3<br>
+│ ├── dashdash@1.14.1<br>
+│ ├── debug@4.3.2<br>
+│ ├── dedent@0.7.0<br>
+│ ├── deep-equal@1.1.1<br>
+│ ├── deep-is@0.1.3<br>
+│ ├── define-properties@1.1.3<br>
+│ ├── delayed-stream@1.0.0<br>
+│ ├── diacritics-map@0.1.0<br>
+│ ├── ecc-jsbn@0.1.2<br>
+│ ├── emoji-regex@8.0.0<br>
+│ ├── end-of-stream@1.4.4<br>
+│ ├── enquirer@2.3.6<br>
+│ ├── error-ex@1.3.2<br>
+│ ├── escape-string-regexp@1.0.5<br>
+│ ├── execa@4.1.0<br>
+│ ├── expand-range@1.8.2<br>
+│ ├── extend@3.0.2<br>
+│ ├── extend-shallow@2.0.1<br>
+│ ├── extsprintf@1.3.0<br>
+│ ├── fast-deep-equal@3.1.3<br>
+│ ├── fast-json-stable-stringify@2.1.0<br>
+│ ├── fast-levenshtein@2.0.6<br>
+│ ├── fault@1.0.4<br>
+│ ├── file-entry-cache@5.0.1<br>
+│ ├── fill-range@2.2.4<br>
+│ ├── fill-range@7.0.1<br>
+│ ├── find-up@2.1.0<br>
+│ ├── find-up@5.0.0<br>
+│ ├── find-versions@4.0.0<br>
+│ ├── flat-cache@2.0.1<br>
+│ ├── for-in@1.0.2<br>
+│ ├── form-data@2.3.3<br>
+│ ├── format@0.2.2<br>
+│ ├── fs.realpath@1.0.0<br>
+│ ├── function-bind@1.1.1<br>
+│ ├── get-intrinsic@1.1.1<br>
+│ ├── get-stdin@5.0.1<br>
+│ ├── get-stream@5.2.0<br>
+│ ├── getpass@0.1.7<br>
+│ ├── gray-matter@2.1.1<br>
+│ ├── gulp-header@1.8.12<br>
+│ ├── har-validator@5.1.5<br>
+│ ├── has@1.0.3<br>
+│ ├── has-ansi@2.0.0<br>
+│ ├── has-flag@3.0.0<br>
+│ ├── has-flag@4.0.0<br>
+│ ├── has-symbols@1.0.2<br>
+│ ├── http-signature@1.2.0<br>
+│ ├── husky@4.3.8<br>
+│ ├── import-fresh@3.3.0<br>
+│ ├── indent-string@4.0.0<br>
+│ ├── is-absolute-url@3.0.3<br>
+│ ├── is-alphabetical@1.0.4<br>
+│ ├── is-alphanumerical@1.0.4<br>
+│ ├── is-arguments@1.1.0<br>
+│ ├── is-arrayish@0.2.1<br>
+│ ├── is-buffer@1.1.6<br>
+│ ├── is-core-module@2.5.0<br>
+│ ├── is-date-object@1.0.4<br>
+│ ├── is-decimal@1.0.4<br>
+│ ├── is-extendable@0.1.1<br>
+│ ├── is-extendable@1.0.1<br>
+│ ├── is-file@1.0.0<br>
+│ ├── is-fullwidth-code-point@1.0.0<br>
+│ ├── is-fullwidth-code-point@2.0.0<br>
+│ ├── is-fullwidth-code-point@3.0.0<br>
+│ ├── is-hexadecimal@1.0.4<br>
+│ ├── is-number@2.1.0<br>
+│ ├── is-number@4.0.0<br>
+│ ├── is-number@7.0.0<br>
+│ ├── is-obj@1.0.1<br>
+│ ├── is-plain-obj@1.1.0<br>
+│ ├── is-plain-object@2.0.4<br>
+│ ├── is-regex@1.1.3<br>
+│ ├── is-regexp@1.0.0<br>
+│ ├── is-relative-url@3.0.0<br>
+│ ├── is-stream@2.0.1<br>
+│ ├── is-typedarray@1.0.0<br>
+│ ├── is-unicode-supported@0.1.0<br>
+│ ├── is-utf8@0.2.1<br>
+│ ├── is-whitespace-character@1.0.4<br>
+│ ├── is-word-character@1.0.4<br>
+│ ├── isarray@1.0.0<br>
+│ ├── isobject@2.1.0<br>
+│ ├── isobject@3.0.1<br>
+│ ├── isstream@0.1.2<br>
+│ ├── js-tokens@4.0.0<br>
+│ ├── js-yaml@3.14.1<br>
+│ ├── jsbn@0.1.1<br>
+│ ├── json-parse-better-errors@1.0.2<br>
+│ ├── json-parse-even-better-errors@2.3.1<br>
+│ ├── json-schema-traverse@0.4.1<br>
+│ ├── json-stable-stringify@1.0.1<br>
+│ ├── json5@2.2.0<br>
+│ ├── jsprim@1.4.1<br>
+│ ├── kind-of@3.2.2<br>
+│ ├── kind-of@6.0.3<br>
+│ ├── lazy-cache@2.0.2<br>
+│ ├── levn@0.4.1<br>
+│ ├── lines-and-columns@1.1.6<br>
+│ ├── lint-staged@10.5.4<br>
+│ ├── list-item@1.1.1<br>
+│ ├── listr2@3.11.0<br>
+│ ├── load-json-file@1.1.0<br>
+│ ├── load-json-file@4.0.0<br>
+│ ├── locate-path@2.0.0<br>
+│ ├── locate-path@6.0.0<br>
+│ ├── lodash@4.17.21<br>
+│ ├── lodash._reinterpolate@3.0.0<br>
+│ ├── lodash.template@4.5.0<br>
+│ ├── lodash.templatesettings@4.2.0<br>
+│ ├── log-symbols@1.0.2<br>
+│ ├── log-symbols@4.1.0<br>
+│ ├── log-update@4.0.0<br>
+│ ├── map-like@2.0.0<br>
+│ ├── markdown-escapes@1.0.4<br>
+│ ├── markdown-link@0.1.1<br>
+│ ├── markdown-toc@1.2.0<br>
+│ ├── marked@2.1.3<br>
+│ ├── math-random@1.0.4<br>
+│ ├── merge-stream@2.0.0<br>
+│ ├── micromatch@4.0.4<br>
+│ ├── mime-db@1.49.0<br>
+│ ├── mime-types@2.1.32<br>
+│ ├── mimic-fn@2.1.0<br>
+│ ├── minimist@1.2.5<br>
+│ ├── mixin-deep@1.3.2<br>
+│ ├── mkdirp@0.5.5<br>
+│ ├── ms@2.1.2<br>
+│ ├── normalize-path@3.0.0<br>
+│ ├── npm-run-path@4.0.1<br>
+│ ├── number-is-nan@1.0.1<br>
+│ ├── object-is@1.1.5<br>
+│ ├── object-keys@1.1.1<br>
+│ ├── object.pick@1.3.0<br>
+│ ├── onetime@5.1.2<br>
+│ ├── opencollective-postinstall@2.0.3<br>
+│ ├── optionator@0.9.1<br>
+│ ├── p-limit@1.3.0<br>
+│ ├── p-limit@3.1.0<br>
+│ ├── p-locate@2.0.0<br>
+│ ├── p-locate@5.0.0<br>
+│ ├── p-map@4.0.0<br>
+│ ├── p-try@1.0.0<br>
+│ ├── parent-module@1.0.1<br>
+│ ├── parse-entities@1.2.2<br>
+│ ├── parse-json@2.2.0<br>
+│ ├── parse-json@4.0.0<br>
+│ ├── parse-json@5.2.0<br>
+│ ├── path-exists@3.0.0<br>
+│ ├── path-exists@4.0.0<br>
+│ ├── path-is-absolute@1.0.1<br>
+│ ├── path-key@3.1.1<br>
+│ ├── path-parse@1.0.7<br>
+│ ├── path-to-glob-pattern@1.0.2<br>
+│ ├── path-type@1.1.0<br>
+│ ├── path-type@3.0.0<br>
+│ ├── path-type@4.0.0<br>
+│ ├── performance-now@2.1.0<br>
+│ ├── picomatch@2.3.0<br>
+│ ├── pify@2.3.0<br>
+│ ├── pify@3.0.0<br>
+│ ├── pinkie@2.0.4<br>
+│ ├── pinkie-promise@2.0.1<br>
+│ ├── pkg-dir@5.0.0<br>
+│ ├── please-upgrade-node@3.2.0<br>
+│ ├── pluralize@2.0.0<br>
+│ ├── prelude-ls@1.2.1<br>
+│ ├── prettier@2.3.2<br>
+│ ├── process-nextick-args@2.0.1<br>
+│ ├── progress@2.0.3<br>
+│ ├── psl@1.8.0<br>
+│ ├── pump@3.0.0<br>
+│ ├── punycode@2.1.1<br>
+│ ├── randomatic@3.1.1<br>
+│ ├── rc-config-loader@3.0.0<br>
+│ ├── read-pkg@1.1.0<br>
+│ ├── read-pkg@3.0.0<br>
+│ ├── read-pkg-up@3.0.0<br>
+│ ├── readable-stream@2.3.7<br>
+│ ├── regexp.prototype.flags@1.3.1<br>
+│ ├── remark-frontmatter@1.3.3<br>
+│ ├── remark-parse@5.0.0<br>
+│ ├── remarkable@1.7.4<br>
+│ ├── repeat-element@1.1.4<br>
+│ ├── repeat-string@1.6.1<br>
+│ ├── replace-ext@1.0.0<br>
+│ ├── require-from-string@2.0.2<br>
+│ ├── resolve@1.20.0<br>
+│ ├── resolve-from@4.0.0<br>
+│ ├── restore-cursor@3.1.0<br>
+│ ├── safe-buffer@5.1.2<br>
+│ ├── safer-buffer@2.1.2<br>
+│ ├── semver-compare@1.0.0<br>
+│ ├── semver-regex@3.1.2<br>
+│ ├── set-getter@0.1.1<br>
+│ ├── shebang-command@2.0.0<br>
+│ ├── shebang-regex@3.0.0<br>
+│ ├── slash@3.0.0<br>
+│ ├── slice-ansi@0.0.4<br>
+│ ├── slice-ansi@3.0.0<br>
+│ ├── slice-ansi@4.0.0<br>
+│ ├── spdx-expression-parse@3.0.1<br>
+│ ├── sshpk@1.16.1<br>
+│ ├── state-toggle@1.0.3<br>
+│ ├── string-argv@0.3.1<br>
+│ ├── string-width@1.0.2<br>
+│ ├── string-width@2.1.1<br>
+│ ├── string-width@4.2.2<br>
+│ ├── string_decoder@1.1.1<br>
+│ ├── strip-ansi@3.0.1<br>
+│ ├── strip-ansi@4.0.0<br>
+│ ├── strip-ansi@6.0.0<br>
+│ ├── strip-bom@2.0.0<br>
+│ ├── strip-bom@3.0.0<br>
+│ ├── strip-color@0.1.0<br>
+│ ├── strip-final-newline@2.0.0<br>
+│ ├── strip-json-comments@3.1.1<br>
+│ ├── supports-color@2.0.0<br>
+│ ├── supports-color@5.5.0<br>
+│ ├── supports-color@7.2.0<br>
+│ ├── text-table@0.2.0<br>
+│ ├── textlint@11.9.1<br>
+│ ├── textlint-filter-rule-comments@1.2.2<br>
+│ ├── textlint-rule-helper@2.2.0<br>
+│ ├── textlint-rule-terminology@2.1.5<br>
+│ ├── through@2.3.8<br>
+│ ├── through2@2.0.5<br>
+│ ├── to-object-path@0.3.0<br>
+│ ├── to-regex-range@5.0.1<br>
+│ ├── toml@2.3.6<br>
+│ ├── traverse@0.6.6<br>
+│ ├── trim@0.0.1<br>
+│ ├── trim-trailing-lines@1.1.4<br>
+│ ├── trough@1.0.5<br>
+│ ├── try-resolve@1.0.1<br>
+│ ├── type-check@0.4.0<br>
+│ ├── type-fest@0.21.3<br>
+│ ├── typedarray@0.0.6<br>
+│ ├── unherit@1.1.3<br>
+│ ├── unified@6.2.0<br>
+│ ├── unique-concat@0.2.2<br>
+│ ├── unist-util-is@3.0.0<br>
+│ ├── unist-util-remove-position@1.1.4<br>
+│ ├── unist-util-stringify-position@1.1.2<br>
+│ ├── unist-util-visit@1.4.1<br>
+│ ├── unist-util-visit-parents@2.1.2<br>
+│ ├── unorm@1.6.0<br>
+│ ├── uslug@1.0.4<br>
+│ ├── util-deprecate@1.0.2<br>
+│ ├── uuid@3.4.0<br>
+│ ├── verror@1.10.0<br>
+│ ├── vfile@2.3.0<br>
+│ ├── vfile-location@2.0.6<br>
+│ ├── vfile-message@1.1.1<br>
+│ ├── which-pm-runs@1.0.0<br>
+│ ├── word-wrap@1.2.3<br>
+│ ├── wrap-ansi@6.2.0<br>
+│ ├── wrap-ansi@7.0.0<br>
+│ ├── write@1.0.3<br>
+│ ├── x-is-string@0.1.0<br>
+│ ├── xml-escape@1.1.0<br>
+│ ├── xtend@4.0.2<br>
+│ └── yocto-queue@0.1.0<br>
+├─┬ Apache<br>
+│ ├── aws-sign2@0.7.0<br>
+│ ├── caseless@0.12.0<br>
+│ ├── forever-agent@0.6.1<br>
+│ ├── human-signals@1.1.1<br>
+│ ├── oauth-sign@0.9.0<br>
+│ ├── request@2.88.2<br>
+│ ├── rxjs@6.6.7<br>
+│ ├── spdx-correct@3.1.1<br>
+│ ├── tunnel-agent@0.6.0<br>
+│ └── validate-npm-package-license@3.0.4<br>
+├─┬ Apache-2.0<br>
+│ ├── aws-sign2@0.7.0<br>
+│ ├── caseless@0.12.0<br>
+│ ├── forever-agent@0.6.1<br>
+│ ├── frontity-docs@1.0.0<br>
+│ ├── human-signals@1.1.1<br>
+│ ├── oauth-sign@0.9.0<br>
+│ ├── request@2.88.2<br>
+│ ├── rxjs@6.6.7<br>
+│ ├── spdx-correct@3.1.1<br>
+│ ├── tunnel-agent@0.6.0<br>
+│ └── validate-npm-package-license@3.0.4<br>
+├─┬ BSD<br>
+│ ├── boundary@1.0.1<br>
+│ ├── dictionary-en-au@2.3.0<br>
+│ ├── diff@4.0.2<br>
+│ ├── esprima@4.0.1<br>
+│ ├── json-schema@0.2.3<br>
+│ ├── normalize-package-data@2.5.0<br>
+│ ├── spdx-expression-parse@3.0.1<br>
+│ ├── sprintf-js@1.0.3<br>
+│ ├── structured-source@3.0.2<br>
+│ └── which@2.0.2<br>
+├─┬ ISC<br>
+│ ├── concat-with-sourcemaps@1.1.0<br>
+│ ├── flatted@2.0.2<br>
+│ ├── fs.realpath@1.0.0<br>
+│ ├── get-own-enumerable-property-symbols@3.0.2<br>
+│ ├── glob@7.1.7<br>
+│ ├── graceful-fs@4.2.6<br>
+│ ├── har-schema@2.0.0<br>
+│ ├── hosted-git-info@2.8.9<br>
+│ ├── inflight@1.0.6<br>
+│ ├── inherits@2.0.4<br>
+│ ├── isexe@2.0.0<br>
+│ ├── json-stringify-safe@5.0.1<br>
+│ ├── link-check@4.5.4<br>
+│ ├── markdown-link-check@3.8.7<br>
+│ ├── markdown-link-extractor@1.3.0<br>
+│ ├── minimatch@3.0.4<br>
+│ ├── once@1.4.0<br>
+│ ├── rimraf@2.6.3<br>
+│ ├── semver@5.7.1<br>
+│ ├── signal-exit@3.0.3<br>
+│ ├── which@2.0.2<br>
+│ ├── wrappy@1.0.2<br>
+│ └── yaml@1.10.2<br>
+├─┬ (MIT AND BSD)<br>
+│ └── dictionary-en-au@2.3.0<br>
+├─┬ Public Domain<br>
+│ ├── dictionary-en-au@2.3.0<br>
+│ └── jsonify@0.0.0<br>
+├─┬ BSD-2-Clause<br>
+│ ├── esprima@4.0.1<br>
+│ ├── normalize-package-data@2.5.0<br>
+│ ├── stringify-object@3.3.0<br>
+│ └── uri-js@4.4.1<br>
+├─┬ AFLv2.1<br>
+│ └── json-schema@0.2.3<br>
+├─┬ AFLv2.1/BSD<br>
+│ └── json-schema@0.2.3<br>
+├─┬ CC-BY-3.0<br>
+│ └── spdx-exceptions@2.3.0<br>
+├─┬ GPL<br>
+│ ├── spdx-expression-parse@3.0.1<br>
+│ └── unorm@1.6.0<br>
+├─┬ LGPL<br>
+│ └── spdx-expression-parse@3.0.1<br>
+├─┬ CC0-1.0<br>
+│ └── spdx-license-ids@3.0.9<br>
+├─┬ 0BSD<br>
+│ └── tslib@1.14.1<br>
+├─┬ Unlicense<br>
+│ └── tweetnacl@0.14.5<br>
+├─┬ (MIT OR CC0-1.0)<br>
+│ └── type-fest@0.21.3<br>
+├─┬ MIT or GPL-2.0<br>
+│ └── unorm@1.6.0<br>
+└─┬ MIT License<br>
+└── xml-escape@1.1.0</p>
+<h3 id="22-ordered-by-name">2.2 Ordered by name</h3>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>version</th>
+<th>repository</th>
+<th>summary</th>
+<th>from package.json</th>
+<th>from license</th>
+<th>from readme</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>@azu/format-text</td>
+<td>1.0.1</td>
+<td><a href="mailto:git@github.com">git@github.com</a>:azu/format-text</td>
+<td>BSD-3-Clause</td>
+<td>BSD-3-Clause</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>@azu/style-format</td>
+<td>1.0.0</td>
+<td><a href="mailto:git@github.com">git@github.com</a>:azu/style-format</td>
+<td>WTFPL</td>
+<td>WTFPL</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>@babel/code-frame</td>
+<td>7.14.5</td>
+<td><a href="https://github.com/babel/babel">https://github.com/babel/babel</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>@babel/helper-validator-identifier</td>
+<td>7.14.8</td>
+<td><a href="https://github.com/babel/babel">https://github.com/babel/babel</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>@babel/highlight</td>
+<td>7.14.5</td>
+<td><a href="https://github.com/babel/babel">https://github.com/babel/babel</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>@textlint/ast-node-types</td>
+<td>4.4.3</td>
+<td><a href="https://github.com/textlint/textlint">https://github.com/textlint/textlint</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>@textlint/ast-tester</td>
+<td>2.3.5</td>
+<td><a href="https://github.com/textlint/textlint">https://github.com/textlint/textlint</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>@textlint/ast-traverse</td>
+<td>2.3.5</td>
+<td><a href="https://github.com/textlint/textlint">https://github.com/textlint/textlint</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>@textlint/feature-flag</td>
+<td>3.3.5</td>
+<td><a href="https://github.com/textlint/textlint">https://github.com/textlint/textlint</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>@textlint/fixer-formatter</td>
+<td>3.3.5</td>
+<td><a href="https://github.com/textlint/textlint">https://github.com/textlint/textlint</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>@textlint/kernel</td>
+<td>3.4.5</td>
+<td><a href="https://github.com/textlint/textlint">https://github.com/textlint/textlint</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>@textlint/linter-formatter</td>
+<td>3.3.5</td>
+<td><a href="https://github.com/textlint/textlint">https://github.com/textlint/textlint</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>@textlint/markdown-to-ast</td>
+<td>6.3.5</td>
+<td><a href="https://github.com/textlint/textlint">https://github.com/textlint/textlint</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>@textlint/module-interop</td>
+<td>1.2.5</td>
+<td><a href="https://github.com/textlint/textlint">https://github.com/textlint/textlint</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>@textlint/source-code-fixer</td>
+<td>3.4.5</td>
+<td><a href="https://github.com/textlint/textlint">https://github.com/textlint/textlint</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>@textlint/text-to-ast</td>
+<td>3.3.5</td>
+<td><a href="https://github.com/textlint/textlint">https://github.com/textlint/textlint</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>@textlint/textlint-plugin-markdown</td>
+<td>5.3.5</td>
+<td><a href="https://github.com/textlint/textlint">https://github.com/textlint/textlint</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>@textlint/textlint-plugin-text</td>
+<td>4.3.5</td>
+<td><a href="https://github.com/textlint/textlint">https://github.com/textlint/textlint</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>@textlint/types</td>
+<td>1.5.5</td>
+<td><a href="https://github.com/textlint/textlint">https://github.com/textlint/textlint</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>@textlint/utils</td>
+<td>1.2.5</td>
+<td><a href="https://github.com/textlint/textlint">https://github.com/textlint/textlint</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>@types/parse-json</td>
+<td>4.0.0</td>
+<td><a href="https://www.github.com/DefinitelyTyped/DefinitelyTyped">https://www.github.com/DefinitelyTyped/DefinitelyTyped</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>aggregate-error</td>
+<td>3.1.0</td>
+<td>sindresorhus/aggregate-error</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>ajv</td>
+<td>4.11.8</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>ajv</td>
+<td>6.12.6</td>
+<td><a href="https://github.com/ajv-validator/ajv">https://github.com/ajv-validator/ajv</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>ajv-keywords</td>
+<td>1.5.1</td>
+<td><a href="https://github.com/epoberezkin/ajv-keywords">https://github.com/epoberezkin/ajv-keywords</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>ansi-colors</td>
+<td>4.1.1</td>
+<td>doowb/ansi-colors</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>ansi-escapes</td>
+<td>4.3.2</td>
+<td>sindresorhus/ansi-escapes</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>ansi-red</td>
+<td>0.1.1</td>
+<td>jonschlinkert/ansi-red</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>ansi-regex</td>
+<td>2.1.1</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>ansi-regex</td>
+<td>3.0.0</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>ansi-regex</td>
+<td>5.0.0</td>
+<td>chalk/ansi-regex</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>ansi-styles</td>
+<td>2.2.1</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>ansi-styles</td>
+<td>3.2.1</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>ansi-styles</td>
+<td>4.3.0</td>
+<td>chalk/ansi-styles</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>ansi-wrap</td>
+<td>0.1.0</td>
+<td><a href="https://github.com/jonschlinkert/ansi-wrap">https://github.com/jonschlinkert/ansi-wrap</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>argparse</td>
+<td>1.0.10</td>
+<td>nodeca/argparse</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>asn1</td>
+<td>0.2.4</td>
+<td><a href="http://github.com/joyent/node-asn1">http://github.com/joyent/node-asn1</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>assert-plus</td>
+<td>1.0.0</td>
+<td><a href="https://github.com/mcavage/node-assert-plus">https://github.com/mcavage/node-assert-plus</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>astral-regex</td>
+<td>2.0.0</td>
+<td>kevva/astral-regex</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>async</td>
+<td>3.2.0</td>
+<td><a href="https://github.com/caolan/async">https://github.com/caolan/async</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>asynckit</td>
+<td>0.4.0</td>
+<td><a href="https://github.com/alexindigo/asynckit">https://github.com/alexindigo/asynckit</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>autolinker</td>
+<td>0.28.1</td>
+<td><a href="http://github.com/gregjacobs/Autolinker.js">http://github.com/gregjacobs/Autolinker.js</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>aws-sign2</td>
+<td>0.7.0</td>
+<td><a href="https://github.com/mikeal/aws-sign">https://github.com/mikeal/aws-sign</a></td>
+<td>Apache;Apache-2.0</td>
+<td>Apache-2.0</td>
+<td>Apache</td>
+<td></td>
+</tr>
+<tr>
+<td>aws4</td>
+<td>1.11.0</td>
+<td>github:mhart/aws4</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>bail</td>
+<td>1.0.5</td>
+<td>wooorm/bail</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>balanced-match</td>
+<td>1.0.2</td>
+<td><a href="http://github.com/juliangruber/balanced-match">http://github.com/juliangruber/balanced-match</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>bcrypt-pbkdf</td>
+<td>1.0.2</td>
+<td><a href="http://github.com/joyent/node-bcrypt-pbkdf">http://github.com/joyent/node-bcrypt-pbkdf</a></td>
+<td>BSD-3-Clause</td>
+<td>BSD-3-Clause</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>boundary</td>
+<td>1.0.1</td>
+<td><a href="https://github.com/Constellation/boundary">https://github.com/Constellation/boundary</a></td>
+<td>BSD</td>
+<td>BSD</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>brace-expansion</td>
+<td>1.1.11</td>
+<td><a href="http://github.com/juliangruber/brace-expansion">http://github.com/juliangruber/brace-expansion</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>braces</td>
+<td>3.0.2</td>
+<td>micromatch/braces</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>buffer-from</td>
+<td>1.1.2</td>
+<td>LinusU/buffer-from</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>call-bind</td>
+<td>1.0.2</td>
+<td><a href="https://github.com/ljharb/call-bind">https://github.com/ljharb/call-bind</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>callsites</td>
+<td>3.1.0</td>
+<td>sindresorhus/callsites</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>caseless</td>
+<td>0.12.0</td>
+<td><a href="https://github.com/mikeal/caseless">https://github.com/mikeal/caseless</a></td>
+<td>Apache;Apache-2.0</td>
+<td>Apache-2.0</td>
+<td>Apache</td>
+<td></td>
+</tr>
+<tr>
+<td>chalk</td>
+<td>1.1.3</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>chalk</td>
+<td>2.4.2</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>chalk</td>
+<td>4.1.2</td>
+<td>chalk/chalk</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>character-entities</td>
+<td>1.2.4</td>
+<td>wooorm/character-entities</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>character-entities-legacy</td>
+<td>1.1.4</td>
+<td>wooorm/character-entities-legacy</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>character-reference-invalid</td>
+<td>1.1.4</td>
+<td>wooorm/character-reference-invalid</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>charenc</td>
+<td>0.0.2</td>
+<td><a href="http://github.com/pvorb/node-charenc">http://github.com/pvorb/node-charenc</a></td>
+<td>BSD-3-Clause</td>
+<td>BSD-3-Clause</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ci-info</td>
+<td>2.0.0</td>
+<td><a href="https://github.com/watson/ci-info">https://github.com/watson/ci-info</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>clean-stack</td>
+<td>2.2.0</td>
+<td>sindresorhus/clean-stack</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>cli-cursor</td>
+<td>3.1.0</td>
+<td>sindresorhus/cli-cursor</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>cli-truncate</td>
+<td>2.1.0</td>
+<td>sindresorhus/cli-truncate</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>co</td>
+<td>4.6.0</td>
+<td>tj/co</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>code-point-at</td>
+<td>1.1.0</td>
+<td>sindresorhus/code-point-at</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>coffee-script</td>
+<td>1.12.7</td>
+<td><a href="http://github.com/jashkenas/coffeescript">http://github.com/jashkenas/coffeescript</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>collapse-white-space</td>
+<td>1.0.6</td>
+<td>wooorm/collapse-white-space</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>color-convert</td>
+<td>1.9.3</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>color-convert</td>
+<td>2.0.1</td>
+<td>Qix-/color-convert</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>color-name</td>
+<td>1.1.3</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>color-name</td>
+<td>1.1.4</td>
+<td><a href="mailto:git@github.com">git@github.com</a>:colorjs/color-name</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>colorette</td>
+<td>1.2.2</td>
+<td>jorgebucaran/colorette</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>combined-stream</td>
+<td>1.0.8</td>
+<td><a href="http://github.com/felixge/node-combined-stream">http://github.com/felixge/node-combined-stream</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>commander</td>
+<td>6.2.1</td>
+<td><a href="https://github.com/tj/commander.js">https://github.com/tj/commander.js</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>compare-versions</td>
+<td>3.6.0</td>
+<td><a href="https://github.com/omichelsen/compare-versions">https://github.com/omichelsen/compare-versions</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>concat-map</td>
+<td>0.0.1</td>
+<td><a href="http://github.com/substack/node-concat-map">http://github.com/substack/node-concat-map</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>concat-stream</td>
+<td>1.6.2</td>
+<td><a href="http://github.com/maxogden/concat-stream">http://github.com/maxogden/concat-stream</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>concat-with-sourcemaps</td>
+<td>1.1.0</td>
+<td><a href="http://github.com/floridoo/concat-with-sourcemaps">http://github.com/floridoo/concat-with-sourcemaps</a></td>
+<td>ISC</td>
+<td>ISC</td>
+<td>ISC</td>
+<td></td>
+</tr>
+<tr>
+<td>core-util-is</td>
+<td>1.0.2</td>
+<td><a href="http://github.com/isaacs/core-util-is">http://github.com/isaacs/core-util-is</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>cosmiconfig</td>
+<td>7.0.0</td>
+<td><a href="https://github.com/davidtheclark/cosmiconfig">https://github.com/davidtheclark/cosmiconfig</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>cross-spawn</td>
+<td>7.0.3</td>
+<td><a href="mailto:git@github.com">git@github.com</a>:moxystudio/node-cross-spawn</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>crypt</td>
+<td>0.0.2</td>
+<td><a href="http://github.com/pvorb/node-crypt">http://github.com/pvorb/node-crypt</a></td>
+<td>BSD-3-Clause</td>
+<td>BSD-3-Clause</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>dashdash</td>
+<td>1.14.1</td>
+<td><a href="http://github.com/trentm/node-dashdash">http://github.com/trentm/node-dashdash</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>debug</td>
+<td>4.3.2</td>
+<td><a href="http://github.com/visionmedia/debug">http://github.com/visionmedia/debug</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>dedent</td>
+<td>0.7.0</td>
+<td><a href="http://github.com/dmnd/dedent">http://github.com/dmnd/dedent</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>deep-equal</td>
+<td>1.1.1</td>
+<td><a href="http://github.com/substack/node-deep-equal">http://github.com/substack/node-deep-equal</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>deep-is</td>
+<td>0.1.3</td>
+<td><a href="http://github.com/thlorenz/deep-is">http://github.com/thlorenz/deep-is</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>define-properties</td>
+<td>1.1.3</td>
+<td><a href="http://github.com/ljharb/define-properties">http://github.com/ljharb/define-properties</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>delayed-stream</td>
+<td>1.0.0</td>
+<td><a href="http://github.com/felixge/node-delayed-stream">http://github.com/felixge/node-delayed-stream</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>diacritics-map</td>
+<td>0.1.0</td>
+<td>jonschlinkert/diacrictics-map</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>dictionary-en-au</td>
+<td>2.3.0</td>
+<td><a href="https://github.com/wooorm/dictionaries/tree/main/dictionaries/en-AU">https://github.com/wooorm/dictionaries/tree/main/dictionaries/en-AU</a></td>
+<td>(MIT AND BSD);BSD;Public Domain</td>
+<td>(MIT AND BSD)</td>
+<td>BSD;Public Domain</td>
+<td>BSD</td>
+</tr>
+<tr>
+<td>diff</td>
+<td>4.0.2</td>
+<td><a href="http://github.com/kpdecker/jsdiff">http://github.com/kpdecker/jsdiff</a></td>
+<td>BSD;BSD-3-Clause</td>
+<td>BSD-3-Clause</td>
+<td>BSD</td>
+<td></td>
+</tr>
+<tr>
+<td>ecc-jsbn</td>
+<td>0.1.2</td>
+<td><a href="https://github.com/quartzjer/ecc-jsbn">https://github.com/quartzjer/ecc-jsbn</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>emoji-regex</td>
+<td>8.0.0</td>
+<td><a href="https://github.com/mathiasbynens/emoji-regex">https://github.com/mathiasbynens/emoji-regex</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>end-of-stream</td>
+<td>1.4.4</td>
+<td><a href="http://github.com/mafintosh/end-of-stream">http://github.com/mafintosh/end-of-stream</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>enquirer</td>
+<td>2.3.6</td>
+<td>enquirer/enquirer</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>error-ex</td>
+<td>1.3.2</td>
+<td>qix-/node-error-ex</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>escape-string-regexp</td>
+<td>1.0.5</td>
+<td>sindresorhus/escape-string-regexp</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>esprima</td>
+<td>4.0.1</td>
+<td><a href="https://github.com/jquery/esprima">https://github.com/jquery/esprima</a></td>
+<td>BSD;BSD-2-Clause</td>
+<td>BSD-2-Clause</td>
+<td></td>
+<td>BSD</td>
+</tr>
+<tr>
+<td>execa</td>
+<td>4.1.0</td>
+<td>sindresorhus/execa</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>expand-range</td>
+<td>1.8.2</td>
+<td>jonschlinkert/expand-range</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>extend</td>
+<td>3.0.2</td>
+<td><a href="https://github.com/justmoon/node-extend">https://github.com/justmoon/node-extend</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>extend-shallow</td>
+<td>2.0.1</td>
+<td>jonschlinkert/extend-shallow</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>extsprintf</td>
+<td>1.3.0</td>
+<td><a href="http://github.com/davepacheco/node-extsprintf">http://github.com/davepacheco/node-extsprintf</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>fast-deep-equal</td>
+<td>3.1.3</td>
+<td><a href="https://github.com/epoberezkin/fast-deep-equal">https://github.com/epoberezkin/fast-deep-equal</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>fast-json-stable-stringify</td>
+<td>2.1.0</td>
+<td><a href="http://github.com/epoberezkin/fast-json-stable-stringify">http://github.com/epoberezkin/fast-json-stable-stringify</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>fast-levenshtein</td>
+<td>2.0.6</td>
+<td><a href="https://github.com/hiddentao/fast-levenshtein">https://github.com/hiddentao/fast-levenshtein</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>fault</td>
+<td>1.0.4</td>
+<td>wooorm/fault</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>file-entry-cache</td>
+<td>5.0.1</td>
+<td>royriojas/file-entry-cache</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>fill-range</td>
+<td>2.2.4</td>
+<td>jonschlinkert/fill-range</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>fill-range</td>
+<td>7.0.1</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>find-up</td>
+<td>2.1.0</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>find-up</td>
+<td>5.0.0</td>
+<td>sindresorhus/find-up</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>find-versions</td>
+<td>4.0.0</td>
+<td>sindresorhus/find-versions</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>flat-cache</td>
+<td>2.0.1</td>
+<td>royriojas/flat-cache</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>flatted</td>
+<td>2.0.2</td>
+<td><a href="https://github.com/WebReflection/flatted">https://github.com/WebReflection/flatted</a></td>
+<td>ISC</td>
+<td>ISC</td>
+<td>ISC</td>
+<td></td>
+</tr>
+<tr>
+<td>for-in</td>
+<td>1.0.2</td>
+<td>jonschlinkert/for-in</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>forever-agent</td>
+<td>0.6.1</td>
+<td><a href="https://github.com/mikeal/forever-agent">https://github.com/mikeal/forever-agent</a></td>
+<td>Apache;Apache-2.0</td>
+<td>Apache-2.0</td>
+<td>Apache</td>
+<td></td>
+</tr>
+<tr>
+<td>form-data</td>
+<td>2.3.3</td>
+<td><a href="http://github.com/form-data/form-data">http://github.com/form-data/form-data</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>format</td>
+<td>0.2.2</td>
+<td><a href="http://github.com/samsonjs/format">http://github.com/samsonjs/format</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>frontity-docs</td>
+<td>1.0.0</td>
+<td><a href="https://github.com/frontity/docs">https://github.com/frontity/docs</a></td>
+<td>Apache-2.0</td>
+<td>Apache-2.0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>fs.realpath</td>
+<td>1.0.0</td>
+<td><a href="https://github.com/isaacs/fs.realpath">https://github.com/isaacs/fs.realpath</a></td>
+<td>ISC;MIT</td>
+<td>ISC</td>
+<td>ISC;MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>function-bind</td>
+<td>1.1.1</td>
+<td><a href="http://github.com/Raynos/function-bind">http://github.com/Raynos/function-bind</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>get-intrinsic</td>
+<td>1.1.1</td>
+<td><a href="https://github.com/ljharb/get-intrinsic">https://github.com/ljharb/get-intrinsic</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>get-own-enumerable-property-symbols</td>
+<td>3.0.2</td>
+<td><a href="https://github.com/mightyiam/get-own-enumerable-property-symbols">https://github.com/mightyiam/get-own-enumerable-property-symbols</a></td>
+<td>ISC</td>
+<td>ISC</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>get-stdin</td>
+<td>5.0.1</td>
+<td>sindresorhus/get-stdin</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>get-stream</td>
+<td>5.2.0</td>
+<td>sindresorhus/get-stream</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>getpass</td>
+<td>0.1.7</td>
+<td><a href="https://github.com/arekinath/node-getpass">https://github.com/arekinath/node-getpass</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>glob</td>
+<td>7.1.7</td>
+<td><a href="http://github.com/isaacs/node-glob">http://github.com/isaacs/node-glob</a></td>
+<td>ISC</td>
+<td>ISC</td>
+<td>ISC</td>
+<td></td>
+</tr>
+<tr>
+<td>graceful-fs</td>
+<td>4.2.6</td>
+<td><a href="https://github.com/isaacs/node-graceful-fs">https://github.com/isaacs/node-graceful-fs</a></td>
+<td>ISC</td>
+<td>ISC</td>
+<td>ISC</td>
+<td></td>
+</tr>
+<tr>
+<td>gray-matter</td>
+<td>2.1.1</td>
+<td>jonschlinkert/gray-matter</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>gulp-header</td>
+<td>1.8.12</td>
+<td><a href="http://github.com/tracker1/gulp-header">http://github.com/tracker1/gulp-header</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>har-schema</td>
+<td>2.0.0</td>
+<td><a href="https://github.com/ahmadnassri/har-schema">https://github.com/ahmadnassri/har-schema</a></td>
+<td>ISC</td>
+<td>ISC</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>har-validator</td>
+<td>5.1.5</td>
+<td><a href="https://github.com/ahmadnassri/node-har-validator">https://github.com/ahmadnassri/node-har-validator</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>has</td>
+<td>1.0.3</td>
+<td><a href="http://github.com/tarruda/has">http://github.com/tarruda/has</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>has-ansi</td>
+<td>2.0.0</td>
+<td>sindresorhus/has-ansi</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>has-flag</td>
+<td>3.0.0</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>has-flag</td>
+<td>4.0.0</td>
+<td>sindresorhus/has-flag</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>has-symbols</td>
+<td>1.0.2</td>
+<td><a href="http://github.com/inspect-js/has-symbols">http://github.com/inspect-js/has-symbols</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>hosted-git-info</td>
+<td>2.8.9</td>
+<td><a href="https://github.com/npm/hosted-git-info">https://github.com/npm/hosted-git-info</a></td>
+<td>ISC</td>
+<td>ISC</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>http-signature</td>
+<td>1.2.0</td>
+<td><a href="http://github.com/joyent/node-http-signature">http://github.com/joyent/node-http-signature</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>human-signals</td>
+<td>1.1.1</td>
+<td>ehmicky/human-signals</td>
+<td>Apache;Apache-2.0</td>
+<td>Apache-2.0</td>
+<td>Apache</td>
+<td></td>
+</tr>
+<tr>
+<td>husky</td>
+<td>4.3.8</td>
+<td><a href="https://github.com/typicode/husky">https://github.com/typicode/husky</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>import-fresh</td>
+<td>3.3.0</td>
+<td>sindresorhus/import-fresh</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>indent-string</td>
+<td>4.0.0</td>
+<td>sindresorhus/indent-string</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>inflight</td>
+<td>1.0.6</td>
+<td><a href="https://github.com/npm/inflight">https://github.com/npm/inflight</a></td>
+<td>ISC</td>
+<td>ISC</td>
+<td>ISC</td>
+<td></td>
+</tr>
+<tr>
+<td>inherits</td>
+<td>2.0.4</td>
+<td><a href="http://github.com/isaacs/inherits">http://github.com/isaacs/inherits</a></td>
+<td>ISC</td>
+<td>ISC</td>
+<td>ISC</td>
+<td></td>
+</tr>
+<tr>
+<td>is-absolute-url</td>
+<td>3.0.3</td>
+<td>sindresorhus/is-absolute-url</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>is-alphabetical</td>
+<td>1.0.4</td>
+<td>wooorm/is-alphabetical</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>is-alphanumerical</td>
+<td>1.0.4</td>
+<td>wooorm/is-alphanumerical</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>is-arguments</td>
+<td>1.1.0</td>
+<td><a href="http://github.com/inspect-js/is-arguments">http://github.com/inspect-js/is-arguments</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>is-arrayish</td>
+<td>0.2.1</td>
+<td><a href="https://github.com/qix-/node-is-arrayish">https://github.com/qix-/node-is-arrayish</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>is-buffer</td>
+<td>1.1.6</td>
+<td><a href="http://github.com/feross/is-buffer">http://github.com/feross/is-buffer</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>is-core-module</td>
+<td>2.5.0</td>
+<td><a href="https://github.com/inspect-js/is-core-module">https://github.com/inspect-js/is-core-module</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>is-date-object</td>
+<td>1.0.4</td>
+<td><a href="http://github.com/inspect-js/is-date-object">http://github.com/inspect-js/is-date-object</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>is-decimal</td>
+<td>1.0.4</td>
+<td>wooorm/is-decimal</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>is-extendable</td>
+<td>0.1.1</td>
+<td>jonschlinkert/is-extendable</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>is-extendable</td>
+<td>1.0.1</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>is-file</td>
+<td>1.0.0</td>
+<td><a href="https://github.com/jsdevel/node-is-file">https://github.com/jsdevel/node-is-file</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>is-fullwidth-code-point</td>
+<td>1.0.0</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>is-fullwidth-code-point</td>
+<td>2.0.0</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>is-fullwidth-code-point</td>
+<td>3.0.0</td>
+<td>sindresorhus/is-fullwidth-code-point</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>is-hexadecimal</td>
+<td>1.0.4</td>
+<td>wooorm/is-hexadecimal</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>is-number</td>
+<td>2.1.0</td>
+<td>jonschlinkert/is-number</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>is-number</td>
+<td>4.0.0</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>is-number</td>
+<td>7.0.0</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>is-obj</td>
+<td>1.0.1</td>
+<td>sindresorhus/is-obj</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>is-plain-obj</td>
+<td>1.1.0</td>
+<td>sindresorhus/is-plain-obj</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>is-plain-object</td>
+<td>2.0.4</td>
+<td>jonschlinkert/is-plain-object</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>is-regex</td>
+<td>1.1.3</td>
+<td><a href="http://github.com/inspect-js/is-regex">http://github.com/inspect-js/is-regex</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>is-regexp</td>
+<td>1.0.0</td>
+<td>sindresorhus/is-regexp</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>is-relative-url</td>
+<td>3.0.0</td>
+<td>sindresorhus/is-relative-url</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>is-stream</td>
+<td>2.0.1</td>
+<td>sindresorhus/is-stream</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>is-typedarray</td>
+<td>1.0.0</td>
+<td><a href="http://github.com/hughsk/is-typedarray">http://github.com/hughsk/is-typedarray</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>is-unicode-supported</td>
+<td>0.1.0</td>
+<td>sindresorhus/is-unicode-supported</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>is-utf8</td>
+<td>0.2.1</td>
+<td><a href="https://github.com/wayfind/is-utf8">https://github.com/wayfind/is-utf8</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>is-whitespace-character</td>
+<td>1.0.4</td>
+<td>wooorm/is-whitespace-character</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>is-word-character</td>
+<td>1.0.4</td>
+<td>wooorm/is-word-character</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>isarray</td>
+<td>1.0.0</td>
+<td><a href="http://github.com/juliangruber/isarray">http://github.com/juliangruber/isarray</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>isemail</td>
+<td>3.2.0</td>
+<td><a href="http://github.com/hapijs/isemail">http://github.com/hapijs/isemail</a></td>
+<td>BSD-3-Clause</td>
+<td>BSD-3-Clause</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>isexe</td>
+<td>2.0.0</td>
+<td><a href="https://github.com/isaacs/isexe">https://github.com/isaacs/isexe</a></td>
+<td>ISC</td>
+<td>ISC</td>
+<td>ISC</td>
+<td></td>
+</tr>
+<tr>
+<td>isobject</td>
+<td>2.1.0</td>
+<td>jonschlinkert/isobject</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>isobject</td>
+<td>3.0.1</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>isstream</td>
+<td>0.1.2</td>
+<td><a href="https://github.com/rvagg/isstream">https://github.com/rvagg/isstream</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>js-tokens</td>
+<td>4.0.0</td>
+<td>lydell/js-tokens</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>js-yaml</td>
+<td>3.14.1</td>
+<td>nodeca/js-yaml</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>jsbn</td>
+<td>0.1.1</td>
+<td><a href="https://github.com/andyperlitch/jsbn">https://github.com/andyperlitch/jsbn</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>json-parse-better-errors</td>
+<td>1.0.2</td>
+<td><a href="https://github.com/zkat/json-parse-better-errors">https://github.com/zkat/json-parse-better-errors</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>json-parse-even-better-errors</td>
+<td>2.3.1</td>
+<td><a href="https://github.com/npm/json-parse-even-better-errors">https://github.com/npm/json-parse-even-better-errors</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>json-schema</td>
+<td>0.2.3</td>
+<td><a href="http://github.com/kriszyp/json-schema">http://github.com/kriszyp/json-schema</a></td>
+<td>AFLv2.1;AFLv2.1/BSD;BSD</td>
+<td>AFLv2.1;AFLv2.1/BSD;BSD</td>
+<td></td>
+<td>BSD</td>
+</tr>
+<tr>
+<td>json-schema-traverse</td>
+<td>0.4.1</td>
+<td><a href="https://github.com/epoberezkin/json-schema-traverse">https://github.com/epoberezkin/json-schema-traverse</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>json-stable-stringify</td>
+<td>1.0.1</td>
+<td><a href="http://github.com/substack/json-stable-stringify">http://github.com/substack/json-stable-stringify</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>json-stringify-safe</td>
+<td>5.0.1</td>
+<td><a href="http://github.com/isaacs/json-stringify-safe">http://github.com/isaacs/json-stringify-safe</a></td>
+<td>ISC</td>
+<td>ISC</td>
+<td>ISC</td>
+<td></td>
+</tr>
+<tr>
+<td>json5</td>
+<td>2.2.0</td>
+<td><a href="https://github.com/json5/json5">https://github.com/json5/json5</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>jsonify</td>
+<td>0.0.0</td>
+<td><a href="http://github.com/substack/jsonify">http://github.com/substack/jsonify</a></td>
+<td>Public Domain</td>
+<td>Public Domain</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>jsprim</td>
+<td>1.4.1</td>
+<td><a href="http://github.com/joyent/node-jsprim">http://github.com/joyent/node-jsprim</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>kind-of</td>
+<td>3.2.2</td>
+<td>jonschlinkert/kind-of</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>kind-of</td>
+<td>6.0.3</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>lazy-cache</td>
+<td>2.0.2</td>
+<td>jonschlinkert/lazy-cache</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>levn</td>
+<td>0.4.1</td>
+<td><a href="http://github.com/gkz/levn">http://github.com/gkz/levn</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>lines-and-columns</td>
+<td>1.1.6</td>
+<td><a href="https://github.com/eventualbuddha/lines-and-columns">https://github.com/eventualbuddha/lines-and-columns</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>link-check</td>
+<td>4.5.4</td>
+<td><a href="http://github.com/tcort/link-check">http://github.com/tcort/link-check</a></td>
+<td>ISC</td>
+<td>ISC</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>lint-staged</td>
+<td>10.5.4</td>
+<td><a href="https://github.com/okonet/lint-staged">https://github.com/okonet/lint-staged</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>list-item</td>
+<td>1.1.1</td>
+<td>jonschlinkert/list-item</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>listr2</td>
+<td>3.11.0</td>
+<td><a href="https://github.com/cenk1cenk2/listr2">https://github.com/cenk1cenk2/listr2</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>load-json-file</td>
+<td>1.1.0</td>
+<td>sindresorhus/load-json-file</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>load-json-file</td>
+<td>4.0.0</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>locate-path</td>
+<td>2.0.0</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>locate-path</td>
+<td>6.0.0</td>
+<td>sindresorhus/locate-path</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>lodash</td>
+<td>4.17.21</td>
+<td>lodash/lodash</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>lodash._reinterpolate</td>
+<td>3.0.0</td>
+<td>lodash/lodash</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>lodash.template</td>
+<td>4.5.0</td>
+<td>lodash/lodash</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>lodash.templatesettings</td>
+<td>4.2.0</td>
+<td>lodash/lodash</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>log-symbols</td>
+<td>1.0.2</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>log-symbols</td>
+<td>4.1.0</td>
+<td>sindresorhus/log-symbols</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>log-update</td>
+<td>4.0.0</td>
+<td>sindresorhus/log-update</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>map-like</td>
+<td>2.0.0</td>
+<td><a href="https://github.com/azu/map-like">https://github.com/azu/map-like</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>markdown-escapes</td>
+<td>1.0.4</td>
+<td>wooorm/markdown-escapes</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>markdown-link</td>
+<td>0.1.1</td>
+<td><a href="http://github.com/jonschlinkert/markdown-link">http://github.com/jonschlinkert/markdown-link</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>markdown-link-check</td>
+<td>3.8.7</td>
+<td><a href="http://github.com/tcort/markdown-link-check">http://github.com/tcort/markdown-link-check</a></td>
+<td>ISC</td>
+<td>ISC</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>markdown-link-extractor</td>
+<td>1.3.0</td>
+<td><a href="http://github.com/tcort/markdown-link-extractor">http://github.com/tcort/markdown-link-extractor</a></td>
+<td>ISC</td>
+<td>ISC</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>markdown-toc</td>
+<td>1.2.0</td>
+<td>jonschlinkert/markdown-toc</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>marked</td>
+<td>2.1.3</td>
+<td><a href="http://github.com/markedjs/marked">http://github.com/markedjs/marked</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>math-random</td>
+<td>1.0.4</td>
+<td>github:michaelrhodes/math-random</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>md5</td>
+<td>2.3.0</td>
+<td><a href="http://github.com/pvorb/node-md5">http://github.com/pvorb/node-md5</a></td>
+<td>BSD-3-Clause</td>
+<td>BSD-3-Clause</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>merge-stream</td>
+<td>2.0.0</td>
+<td>grncdr/merge-stream</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>micromatch</td>
+<td>4.0.4</td>
+<td>micromatch/micromatch</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>mime-db</td>
+<td>1.49.0</td>
+<td>jshttp/mime-db</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>mime-types</td>
+<td>2.1.32</td>
+<td>jshttp/mime-types</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>mimic-fn</td>
+<td>2.1.0</td>
+<td>sindresorhus/mimic-fn</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>minimatch</td>
+<td>3.0.4</td>
+<td><a href="http://github.com/isaacs/minimatch">http://github.com/isaacs/minimatch</a></td>
+<td>ISC</td>
+<td>ISC</td>
+<td>ISC</td>
+<td></td>
+</tr>
+<tr>
+<td>minimist</td>
+<td>1.2.5</td>
+<td><a href="http://github.com/substack/minimist">http://github.com/substack/minimist</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>mixin-deep</td>
+<td>1.3.2</td>
+<td>jonschlinkert/mixin-deep</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>mkdirp</td>
+<td>0.5.5</td>
+<td><a href="https://github.com/substack/node-mkdirp">https://github.com/substack/node-mkdirp</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>ms</td>
+<td>2.1.2</td>
+<td>zeit/ms</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>normalize-package-data</td>
+<td>2.5.0</td>
+<td><a href="http://github.com/npm/normalize-package-data">http://github.com/npm/normalize-package-data</a></td>
+<td>BSD;BSD-2-Clause</td>
+<td>BSD-2-Clause</td>
+<td>BSD</td>
+<td></td>
+</tr>
+<tr>
+<td>normalize-path</td>
+<td>3.0.0</td>
+<td>jonschlinkert/normalize-path</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>npm-run-path</td>
+<td>4.0.1</td>
+<td>sindresorhus/npm-run-path</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>number-is-nan</td>
+<td>1.0.1</td>
+<td>sindresorhus/number-is-nan</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>oauth-sign</td>
+<td>0.9.0</td>
+<td><a href="https://github.com/mikeal/oauth-sign">https://github.com/mikeal/oauth-sign</a></td>
+<td>Apache;Apache-2.0</td>
+<td>Apache-2.0</td>
+<td>Apache</td>
+<td></td>
+</tr>
+<tr>
+<td>object-is</td>
+<td>1.1.5</td>
+<td><a href="http://github.com/es-shims/object-is">http://github.com/es-shims/object-is</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>object-keys</td>
+<td>1.1.1</td>
+<td><a href="http://github.com/ljharb/object-keys">http://github.com/ljharb/object-keys</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>object.pick</td>
+<td>1.3.0</td>
+<td>jonschlinkert/object.pick</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>once</td>
+<td>1.4.0</td>
+<td><a href="http://github.com/isaacs/once">http://github.com/isaacs/once</a></td>
+<td>ISC</td>
+<td>ISC</td>
+<td>ISC</td>
+<td></td>
+</tr>
+<tr>
+<td>onetime</td>
+<td>5.1.2</td>
+<td>sindresorhus/onetime</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>opencollective-postinstall</td>
+<td>2.0.3</td>
+<td><a href="https://github.com/opencollective/opencollective-postinstall">https://github.com/opencollective/opencollective-postinstall</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>optionator</td>
+<td>0.9.1</td>
+<td><a href="http://github.com/gkz/optionator">http://github.com/gkz/optionator</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>p-limit</td>
+<td>1.3.0</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>p-limit</td>
+<td>3.1.0</td>
+<td>sindresorhus/p-limit</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>p-locate</td>
+<td>2.0.0</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>p-locate</td>
+<td>5.0.0</td>
+<td>sindresorhus/p-locate</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>p-map</td>
+<td>4.0.0</td>
+<td>sindresorhus/p-map</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>p-try</td>
+<td>1.0.0</td>
+<td>sindresorhus/p-try</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>parent-module</td>
+<td>1.0.1</td>
+<td>sindresorhus/parent-module</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>parse-entities</td>
+<td>1.2.2</td>
+<td>wooorm/parse-entities</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>parse-json</td>
+<td>2.2.0</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>parse-json</td>
+<td>4.0.0</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>parse-json</td>
+<td>5.2.0</td>
+<td>sindresorhus/parse-json</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>path-exists</td>
+<td>3.0.0</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>path-exists</td>
+<td>4.0.0</td>
+<td>sindresorhus/path-exists</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>path-is-absolute</td>
+<td>1.0.1</td>
+<td>sindresorhus/path-is-absolute</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>path-key</td>
+<td>3.1.1</td>
+<td>sindresorhus/path-key</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>path-parse</td>
+<td>1.0.7</td>
+<td><a href="https://github.com/jbgutierrez/path-parse">https://github.com/jbgutierrez/path-parse</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>path-to-glob-pattern</td>
+<td>1.0.2</td>
+<td><a href="https://github.com/azu/path-to-glob-pattern">https://github.com/azu/path-to-glob-pattern</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>path-type</td>
+<td>1.1.0</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>path-type</td>
+<td>3.0.0</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>path-type</td>
+<td>4.0.0</td>
+<td>sindresorhus/path-type</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>performance-now</td>
+<td>2.1.0</td>
+<td><a href="http://github.com/braveg1rl/performance-now">http://github.com/braveg1rl/performance-now</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>picomatch</td>
+<td>2.3.0</td>
+<td>micromatch/picomatch</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>pify</td>
+<td>2.3.0</td>
+<td>sindresorhus/pify</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>pify</td>
+<td>3.0.0</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>pinkie</td>
+<td>2.0.4</td>
+<td>floatdrop/pinkie</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>pinkie-promise</td>
+<td>2.0.1</td>
+<td>floatdrop/pinkie-promise</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>pkg-dir</td>
+<td>5.0.0</td>
+<td>sindresorhus/pkg-dir</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>please-upgrade-node</td>
+<td>3.2.0</td>
+<td><a href="https://github.com/typicode/please-upgrade-node">https://github.com/typicode/please-upgrade-node</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>pluralize</td>
+<td>2.0.0</td>
+<td><a href="https://github.com/blakeembrey/pluralize">https://github.com/blakeembrey/pluralize</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>prelude-ls</td>
+<td>1.2.1</td>
+<td><a href="http://github.com/gkz/prelude-ls">http://github.com/gkz/prelude-ls</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>prettier</td>
+<td>2.3.2</td>
+<td>prettier/prettier</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>process-nextick-args</td>
+<td>2.0.1</td>
+<td><a href="https://github.com/calvinmetcalf/process-nextick-args">https://github.com/calvinmetcalf/process-nextick-args</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>progress</td>
+<td>2.0.3</td>
+<td><a href="http://github.com/visionmedia/node-progress">http://github.com/visionmedia/node-progress</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>psl</td>
+<td>1.8.0</td>
+<td><a href="mailto:git@github.com">git@github.com</a>:lupomontero/psl</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>pump</td>
+<td>3.0.0</td>
+<td><a href="http://github.com/mafintosh/pump">http://github.com/mafintosh/pump</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>punycode</td>
+<td>2.1.1</td>
+<td><a href="https://github.com/bestiejs/punycode.js">https://github.com/bestiejs/punycode.js</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>qs</td>
+<td>6.5.2</td>
+<td><a href="https://github.com/ljharb/qs">https://github.com/ljharb/qs</a></td>
+<td>BSD-3-Clause</td>
+<td>BSD-3-Clause</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>randomatic</td>
+<td>3.1.1</td>
+<td>jonschlinkert/randomatic</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>rc-config-loader</td>
+<td>3.0.0</td>
+<td><a href="https://github.com/azu/rc-config-loader">https://github.com/azu/rc-config-loader</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>read-pkg</td>
+<td>1.1.0</td>
+<td>sindresorhus/read-pkg</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>read-pkg</td>
+<td>3.0.0</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>read-pkg-up</td>
+<td>3.0.0</td>
+<td>sindresorhus/read-pkg-up</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>readable-stream</td>
+<td>2.3.7</td>
+<td><a href="http://github.com/nodejs/readable-stream">http://github.com/nodejs/readable-stream</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>regexp.prototype.flags</td>
+<td>1.3.1</td>
+<td><a href="http://github.com/es-shims/RegExp.prototype.flags">http://github.com/es-shims/RegExp.prototype.flags</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>remark-frontmatter</td>
+<td>1.3.3</td>
+<td>remarkjs/remark-frontmatter</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>remark-parse</td>
+<td>5.0.0</td>
+<td><a href="https://github.com/remarkjs/remark/tree/master/packages/remark-parse">https://github.com/remarkjs/remark/tree/master/packages/remark-parse</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>remarkable</td>
+<td>1.7.4</td>
+<td>jonschlinkert/remarkable</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>repeat-element</td>
+<td>1.1.4</td>
+<td>jonschlinkert/repeat-element</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>repeat-string</td>
+<td>1.6.1</td>
+<td>jonschlinkert/repeat-string</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>replace-ext</td>
+<td>1.0.0</td>
+<td>gulpjs/replace-ext</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>request</td>
+<td>2.88.2</td>
+<td><a href="https://github.com/request/request">https://github.com/request/request</a></td>
+<td>Apache;Apache-2.0</td>
+<td>Apache-2.0</td>
+<td>Apache</td>
+<td></td>
+</tr>
+<tr>
+<td>require-from-string</td>
+<td>2.0.2</td>
+<td>floatdrop/require-from-string</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>resolve</td>
+<td>1.20.0</td>
+<td><a href="http://github.com/browserify/resolve">http://github.com/browserify/resolve</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>resolve-from</td>
+<td>4.0.0</td>
+<td>sindresorhus/resolve-from</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>restore-cursor</td>
+<td>3.1.0</td>
+<td>sindresorhus/restore-cursor</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>rimraf</td>
+<td>2.6.3</td>
+<td><a href="http://github.com/isaacs/rimraf">http://github.com/isaacs/rimraf</a></td>
+<td>ISC</td>
+<td>ISC</td>
+<td>ISC</td>
+<td></td>
+</tr>
+<tr>
+<td>rxjs</td>
+<td>6.6.7</td>
+<td><a href="https://github.com/reactivex/rxjs">https://github.com/reactivex/rxjs</a></td>
+<td>Apache;Apache-2.0</td>
+<td>Apache-2.0</td>
+<td>Apache</td>
+<td></td>
+</tr>
+<tr>
+<td>safe-buffer</td>
+<td>5.1.2</td>
+<td><a href="http://github.com/feross/safe-buffer">http://github.com/feross/safe-buffer</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>safer-buffer</td>
+<td>2.1.2</td>
+<td><a href="https://github.com/ChALkeR/safer-buffer">https://github.com/ChALkeR/safer-buffer</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>semver</td>
+<td>5.7.1</td>
+<td><a href="https://github.com/npm/node-semver">https://github.com/npm/node-semver</a></td>
+<td>ISC</td>
+<td>ISC</td>
+<td>ISC</td>
+<td></td>
+</tr>
+<tr>
+<td>semver-compare</td>
+<td>1.0.0</td>
+<td><a href="http://github.com/substack/semver-compare">http://github.com/substack/semver-compare</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>semver-regex</td>
+<td>3.1.2</td>
+<td>sindresorhus/semver-regex</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>set-getter</td>
+<td>0.1.1</td>
+<td>doowb/set-getter</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>shebang-command</td>
+<td>2.0.0</td>
+<td>kevva/shebang-command</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>shebang-regex</td>
+<td>3.0.0</td>
+<td>sindresorhus/shebang-regex</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>signal-exit</td>
+<td>3.0.3</td>
+<td><a href="https://github.com/tapjs/signal-exit">https://github.com/tapjs/signal-exit</a></td>
+<td>ISC</td>
+<td>ISC</td>
+<td>ISC</td>
+<td></td>
+</tr>
+<tr>
+<td>slash</td>
+<td>3.0.0</td>
+<td>sindresorhus/slash</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>slice-ansi</td>
+<td>0.0.4</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>slice-ansi</td>
+<td>3.0.0</td>
+<td>chalk/slice-ansi</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>slice-ansi</td>
+<td>4.0.0</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>source-map</td>
+<td>0.6.1</td>
+<td><a href="http://github.com/mozilla/source-map">http://github.com/mozilla/source-map</a></td>
+<td>BSD-3-Clause</td>
+<td>BSD-3-Clause</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>spdx-correct</td>
+<td>3.1.1</td>
+<td>jslicense/spdx-correct.js</td>
+<td>Apache;Apache-2.0</td>
+<td>Apache-2.0</td>
+<td>Apache</td>
+<td></td>
+</tr>
+<tr>
+<td>spdx-exceptions</td>
+<td>2.3.0</td>
+<td>kemitchell/spdx-exceptions.json</td>
+<td>CC-BY-3.0</td>
+<td>CC-BY-3.0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>spdx-expression-parse</td>
+<td>3.0.1</td>
+<td>jslicense/spdx-expression-parse.js</td>
+<td>BSD;GPL;LGPL;MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>BSD;GPL;LGPL;MIT</td>
+</tr>
+<tr>
+<td>spdx-license-ids</td>
+<td>3.0.9</td>
+<td>jslicense/spdx-license-ids</td>
+<td>CC0-1.0</td>
+<td>CC0-1.0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>sprintf-js</td>
+<td>1.0.3</td>
+<td><a href="https://github.com/alexei/sprintf.js">https://github.com/alexei/sprintf.js</a></td>
+<td>BSD;BSD-3-Clause</td>
+<td>BSD-3-Clause</td>
+<td></td>
+<td>BSD</td>
+</tr>
+<tr>
+<td>sshpk</td>
+<td>1.16.1</td>
+<td><a href="https://github.com/joyent/node-sshpk">https://github.com/joyent/node-sshpk</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>state-toggle</td>
+<td>1.0.3</td>
+<td>wooorm/state-toggle</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>string-argv</td>
+<td>0.3.1</td>
+<td><a href="https://github.com/mccormicka/string-argv">https://github.com/mccormicka/string-argv</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>string-width</td>
+<td>1.0.2</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>string-width</td>
+<td>2.1.1</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>string-width</td>
+<td>4.2.2</td>
+<td>sindresorhus/string-width</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>string_decoder</td>
+<td>1.1.1</td>
+<td><a href="http://github.com/nodejs/string_decoder">http://github.com/nodejs/string_decoder</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stringify-object</td>
+<td>3.3.0</td>
+<td>yeoman/stringify-object</td>
+<td>BSD-2-Clause</td>
+<td>BSD-2-Clause</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>strip-ansi</td>
+<td>3.0.1</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>strip-ansi</td>
+<td>4.0.0</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>strip-ansi</td>
+<td>6.0.0</td>
+<td>chalk/strip-ansi</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>strip-bom</td>
+<td>2.0.0</td>
+<td>sindresorhus/strip-bom</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>strip-bom</td>
+<td>3.0.0</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>strip-color</td>
+<td>0.1.0</td>
+<td>jonschlinkert/strip-color</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>strip-final-newline</td>
+<td>2.0.0</td>
+<td>sindresorhus/strip-final-newline</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>strip-json-comments</td>
+<td>3.1.1</td>
+<td>sindresorhus/strip-json-comments</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>structured-source</td>
+<td>3.0.2</td>
+<td><a href="https://github.com/Constellation/structured-source">https://github.com/Constellation/structured-source</a></td>
+<td>BSD</td>
+<td>BSD</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>supports-color</td>
+<td>2.0.0</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>supports-color</td>
+<td>5.5.0</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>supports-color</td>
+<td>7.2.0</td>
+<td>chalk/supports-color</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>table</td>
+<td>3.8.3</td>
+<td><a href="https://github.com/gajus/table">https://github.com/gajus/table</a></td>
+<td>BSD-3-Clause</td>
+<td>BSD-3-Clause</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>text-table</td>
+<td>0.2.0</td>
+<td><a href="http://github.com/substack/text-table">http://github.com/substack/text-table</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>textlint</td>
+<td>11.9.1</td>
+<td><a href="https://github.com/textlint/textlint">https://github.com/textlint/textlint</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>textlint-filter-rule-comments</td>
+<td>1.2.2</td>
+<td><a href="https://github.com/textlint/textlint-filter-rule-comments">https://github.com/textlint/textlint-filter-rule-comments</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>textlint-rule-helper</td>
+<td>2.2.0</td>
+<td><a href="https://github.com/textlint/textlint-rule-helper">https://github.com/textlint/textlint-rule-helper</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>textlint-rule-terminology</td>
+<td>2.1.5</td>
+<td>sapegin/textlint-rule-terminology</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>through</td>
+<td>2.3.8</td>
+<td><a href="https://github.com/dominictarr/through">https://github.com/dominictarr/through</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>through2</td>
+<td>2.0.5</td>
+<td><a href="https://github.com/rvagg/through2">https://github.com/rvagg/through2</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>to-object-path</td>
+<td>0.3.0</td>
+<td>jonschlinkert/to-object-path</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>to-regex-range</td>
+<td>5.0.1</td>
+<td>micromatch/to-regex-range</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>toml</td>
+<td>2.3.6</td>
+<td><a href="http://github.com/BinaryMuse/toml-node">http://github.com/BinaryMuse/toml-node</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>tough-cookie</td>
+<td>2.5.0</td>
+<td><a href="http://github.com/salesforce/tough-cookie">http://github.com/salesforce/tough-cookie</a></td>
+<td>BSD-3-Clause</td>
+<td>BSD-3-Clause</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>traverse</td>
+<td>0.6.6</td>
+<td><a href="http://github.com/substack/js-traverse">http://github.com/substack/js-traverse</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>trim</td>
+<td>0.0.1</td>
+<td>(none)</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>trim-trailing-lines</td>
+<td>1.1.4</td>
+<td>wooorm/trim-trailing-lines</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>trough</td>
+<td>1.0.5</td>
+<td>wooorm/trough</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>try-resolve</td>
+<td>1.0.1</td>
+<td>sebmck/try-resolve</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>tslib</td>
+<td>1.14.1</td>
+<td><a href="https://github.com/Microsoft/tslib">https://github.com/Microsoft/tslib</a></td>
+<td>0BSD</td>
+<td>0BSD</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>tunnel-agent</td>
+<td>0.6.0</td>
+<td><a href="https://github.com/mikeal/tunnel-agent">https://github.com/mikeal/tunnel-agent</a></td>
+<td>Apache;Apache-2.0</td>
+<td>Apache-2.0</td>
+<td>Apache</td>
+<td></td>
+</tr>
+<tr>
+<td>tweetnacl</td>
+<td>0.14.5</td>
+<td><a href="https://github.com/dchest/tweetnacl-js">https://github.com/dchest/tweetnacl-js</a></td>
+<td>Unlicense</td>
+<td>Unlicense</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>type-check</td>
+<td>0.4.0</td>
+<td><a href="http://github.com/gkz/type-check">http://github.com/gkz/type-check</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>type-fest</td>
+<td>0.21.3</td>
+<td>sindresorhus/type-fest</td>
+<td>(MIT OR CC0-1.0);MIT</td>
+<td>(MIT OR CC0-1.0)</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>typedarray</td>
+<td>0.0.6</td>
+<td><a href="http://github.com/substack/typedarray">http://github.com/substack/typedarray</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>unherit</td>
+<td>1.1.3</td>
+<td>wooorm/unherit</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>unified</td>
+<td>6.2.0</td>
+<td>unifiedjs/unified</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>unique-concat</td>
+<td>0.2.2</td>
+<td><a href="http://github.com/thlorenz/unique-concat">http://github.com/thlorenz/unique-concat</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>unist-util-is</td>
+<td>3.0.0</td>
+<td>syntax-tree/unist-util-is</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>unist-util-remove-position</td>
+<td>1.1.4</td>
+<td>syntax-tree/unist-util-remove-position</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>unist-util-stringify-position</td>
+<td>1.1.2</td>
+<td>syntax-tree/unist-util-stringify-position</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>unist-util-visit</td>
+<td>1.4.1</td>
+<td>syntax-tree/unist-util-visit</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>unist-util-visit-parents</td>
+<td>2.1.2</td>
+<td>syntax-tree/unist-util-visit-parents</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>unorm</td>
+<td>1.6.0</td>
+<td><a href="http://github.com/walling/unorm">http://github.com/walling/unorm</a></td>
+<td>GPL;MIT;MIT or GPL-2.0</td>
+<td>MIT or GPL-2.0</td>
+<td>GPL;MIT</td>
+<td>GPL;MIT</td>
+</tr>
+<tr>
+<td>uri-js</td>
+<td>4.4.1</td>
+<td><a href="http://github.com/garycourt/uri-js">http://github.com/garycourt/uri-js</a></td>
+<td>BSD-2-Clause</td>
+<td>BSD-2-Clause</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>uslug</td>
+<td>1.0.4</td>
+<td><a href="http://github.com/jeremys/uslug">http://github.com/jeremys/uslug</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>util-deprecate</td>
+<td>1.0.2</td>
+<td><a href="http://github.com/TooTallNate/util-deprecate">http://github.com/TooTallNate/util-deprecate</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>uuid</td>
+<td>3.4.0</td>
+<td><a href="https://github.com/uuidjs/uuid">https://github.com/uuidjs/uuid</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>validate-npm-package-license</td>
+<td>3.0.4</td>
+<td>kemitchell/validate-npm-package-license.js</td>
+<td>Apache;Apache-2.0</td>
+<td>Apache-2.0</td>
+<td>Apache</td>
+<td></td>
+</tr>
+<tr>
+<td>verror</td>
+<td>1.10.0</td>
+<td><a href="http://github.com/davepacheco/node-verror">http://github.com/davepacheco/node-verror</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>vfile</td>
+<td>2.3.0</td>
+<td>vfile/vfile</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>vfile-location</td>
+<td>2.0.6</td>
+<td>vfile/vfile-location</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>vfile-message</td>
+<td>1.1.1</td>
+<td>vfile/vfile-message</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>which</td>
+<td>2.0.2</td>
+<td><a href="http://github.com/isaacs/node-which">http://github.com/isaacs/node-which</a></td>
+<td>BSD;ISC</td>
+<td>ISC</td>
+<td>ISC</td>
+<td>BSD</td>
+</tr>
+<tr>
+<td>which-pm-runs</td>
+<td>1.0.0</td>
+<td><a href="https://github.com/zkochan/which-pm-runs">https://github.com/zkochan/which-pm-runs</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>word-wrap</td>
+<td>1.2.3</td>
+<td>jonschlinkert/word-wrap</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>wrap-ansi</td>
+<td>6.2.0</td>
+<td>(none)</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>wrap-ansi</td>
+<td>7.0.0</td>
+<td>chalk/wrap-ansi</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>wrappy</td>
+<td>1.0.2</td>
+<td><a href="https://github.com/npm/wrappy">https://github.com/npm/wrappy</a></td>
+<td>ISC</td>
+<td>ISC</td>
+<td>ISC</td>
+<td></td>
+</tr>
+<tr>
+<td>write</td>
+<td>1.0.3</td>
+<td>jonschlinkert/write</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>x-is-string</td>
+<td>0.1.0</td>
+<td><a href="http://github.com/Matt-Esch/x-is-string">http://github.com/Matt-Esch/x-is-string</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>xml-escape</td>
+<td>1.1.0</td>
+<td><a href="http://github.com/miketheprogrammer/xml-escape">http://github.com/miketheprogrammer/xml-escape</a></td>
+<td>MIT;MIT License</td>
+<td>MIT License</td>
+<td>MIT</td>
+<td></td>
+</tr>
+<tr>
+<td>xtend</td>
+<td>4.0.2</td>
+<td><a href="http://github.com/Raynos/xtend">http://github.com/Raynos/xtend</a></td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>yaml</td>
+<td>1.10.2</td>
+<td>github:eemeli/yaml</td>
+<td>ISC</td>
+<td>ISC</td>
+<td></td>
+<td>ISC</td>
+</tr>
+<tr>
+<td>yocto-queue</td>
+<td>0.1.0</td>
+<td>sindresorhus/yocto-queue</td>
+<td>MIT</td>
+<td>MIT</td>
+<td>MIT</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+    </body>
+    </html>

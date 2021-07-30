@@ -1,0 +1,2088 @@
+@azu/format-text@1.0.1 [license(s): BSD-3-Clause]
+└── package.json:  BSD-3-Clause
+
+@azu/style-format@1.0.0 [license(s): WTFPL]
+└── package.json:  WTFPL
+
+@babel/code-frame@7.14.5 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@babel/helper-validator-identifier@7.14.8 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@babel/highlight@7.14.5 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+@textlint/ast-node-types@4.4.3 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+@textlint/ast-tester@2.3.5 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+@textlint/ast-traverse@2.3.5 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+@textlint/feature-flag@3.3.5 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+@textlint/fixer-formatter@3.3.5 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+@textlint/kernel@3.4.5 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+@textlint/linter-formatter@3.3.5 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+@textlint/markdown-to-ast@6.3.5 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+@textlint/module-interop@1.2.5 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+@textlint/source-code-fixer@3.4.5 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+@textlint/text-to-ast@3.3.5 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+@textlint/textlint-plugin-markdown@5.3.5 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+@textlint/textlint-plugin-text@4.3.5 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+@textlint/types@1.5.5 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+@textlint/utils@1.2.5 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+@types/parse-json@4.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+aggregate-error@3.1.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+ajv@4.11.8 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+ajv@6.12.6 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+ajv-keywords@1.5.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+ansi-colors@4.1.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+ansi-escapes@4.3.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+ansi-red@0.1.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+ansi-regex@2.1.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+ansi-regex@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+ansi-regex@5.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+ansi-styles@2.2.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+ansi-styles@3.2.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+ansi-styles@4.3.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+ansi-wrap@0.1.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+argparse@1.0.10 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+asn1@0.2.4 [license(s): MIT]
+└── package.json:  MIT
+
+assert-plus@1.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+astral-regex@2.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+async@3.2.0 [license(s): MIT]
+└── package.json:  MIT
+
+asynckit@0.4.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+autolinker@0.28.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+aws-sign2@0.7.0 [license(s): Apache, Apache-2.0]
+├── package.json:  Apache-2.0
+└── license files: Apache
+
+aws4@1.11.0 [license(s): MIT]
+└── package.json:  MIT
+
+bail@1.0.5 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+balanced-match@1.0.2 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+bcrypt-pbkdf@1.0.2 [license(s): BSD-3-Clause]
+└── package.json:  BSD-3-Clause
+
+boundary@1.0.1 [license(s): BSD]
+└── package.json:  BSD
+
+brace-expansion@1.1.11 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+braces@3.0.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+buffer-from@1.1.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+call-bind@1.0.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+callsites@3.1.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+caseless@0.12.0 [license(s): Apache, Apache-2.0]
+├── package.json:  Apache-2.0
+└── license files: Apache
+
+chalk@1.1.3 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+chalk@2.4.2 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+chalk@4.1.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+character-entities@1.2.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+character-entities-legacy@1.1.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+character-reference-invalid@1.1.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+charenc@0.0.2 [license(s): BSD-3-Clause]
+└── package.json:  BSD-3-Clause
+
+ci-info@2.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+clean-stack@2.2.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+cli-cursor@3.1.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+cli-truncate@2.1.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+co@4.6.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+code-point-at@1.1.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+coffee-script@1.12.7 [license(s): MIT]
+└── package.json:  MIT
+
+collapse-white-space@1.0.6 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+color-convert@1.9.3 [license(s): MIT]
+└── package.json:  MIT
+
+color-convert@2.0.1 [license(s): MIT]
+└── package.json:  MIT
+
+color-name@1.1.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+color-name@1.1.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+colorette@1.2.2 [license(s): MIT]
+└── package.json:  MIT
+
+combined-stream@1.0.8 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+commander@6.2.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+compare-versions@3.6.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+concat-map@0.0.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+concat-stream@1.6.2 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+concat-with-sourcemaps@1.1.0 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+core-util-is@1.0.2 [license(s): MIT]
+└── package.json:  MIT
+
+cosmiconfig@7.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+cross-spawn@7.0.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+crypt@0.0.2 [license(s): BSD-3-Clause]
+└── package.json:  BSD-3-Clause
+
+dashdash@1.14.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+debug@4.3.2 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+dedent@0.7.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+deep-equal@1.1.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+deep-is@0.1.3 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+define-properties@1.1.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+delayed-stream@1.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+diacritics-map@0.1.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+dictionary-en-au@2.3.0 [license(s): (MIT AND BSD), BSD, Public Domain]
+├── package.json:  (MIT AND BSD)
+├── license files: BSD, Public Domain
+└── readme files: BSD
+
+diff@4.0.2 [license(s): BSD, BSD-3-Clause]
+├── package.json:  BSD-3-Clause
+└── license files: BSD
+
+ecc-jsbn@0.1.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+emoji-regex@8.0.0 [license(s): MIT]
+└── package.json:  MIT
+
+end-of-stream@1.4.4 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+enquirer@2.3.6 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+error-ex@1.3.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+escape-string-regexp@1.0.5 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+esprima@4.0.1 [license(s): BSD, BSD-2-Clause]
+├── package.json:  BSD-2-Clause
+└── readme files: BSD
+
+execa@4.1.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+expand-range@1.8.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+extend@3.0.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+extend-shallow@2.0.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+extsprintf@1.3.0 [license(s): MIT]
+└── package.json:  MIT
+
+fast-deep-equal@3.1.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+fast-json-stable-stringify@2.1.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+fast-levenshtein@2.0.6 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+fault@1.0.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+file-entry-cache@5.0.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+fill-range@2.2.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+fill-range@7.0.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+find-up@2.1.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+find-up@5.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+find-versions@4.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+flat-cache@2.0.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+flatted@2.0.2 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+for-in@1.0.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+forever-agent@0.6.1 [license(s): Apache, Apache-2.0]
+├── package.json:  Apache-2.0
+└── license files: Apache
+
+form-data@2.3.3 [license(s): MIT]
+└── package.json:  MIT
+
+format@0.2.2 [license(s): MIT]
+└── package.json:  MIT
+
+frontity-docs@1.0.0 [license(s): Apache-2.0]
+└── package.json:  Apache-2.0
+
+fs.realpath@1.0.0 [license(s): ISC, MIT]
+├── package.json:  ISC
+└── license files: ISC, MIT
+
+function-bind@1.1.1 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+get-intrinsic@1.1.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+get-own-enumerable-property-symbols@3.0.2 [license(s): ISC]
+└── package.json:  ISC
+
+get-stdin@5.0.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+get-stream@5.2.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+getpass@0.1.7 [license(s): MIT]
+└── package.json:  MIT
+
+glob@7.1.7 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+graceful-fs@4.2.6 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+gray-matter@2.1.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+gulp-header@1.8.12 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+har-schema@2.0.0 [license(s): ISC]
+└── package.json:  ISC
+
+har-validator@5.1.5 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+has@1.0.3 [license(s): MIT]
+└── package.json:  MIT
+
+has-ansi@2.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+has-flag@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+has-flag@4.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+has-symbols@1.0.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+hosted-git-info@2.8.9 [license(s): ISC]
+└── package.json:  ISC
+
+http-signature@1.2.0 [license(s): MIT]
+└── package.json:  MIT
+
+human-signals@1.1.1 [license(s): Apache, Apache-2.0]
+├── package.json:  Apache-2.0
+└── license files: Apache
+
+husky@4.3.8 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+import-fresh@3.3.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+indent-string@4.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+inflight@1.0.6 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+inherits@2.0.4 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+is-absolute-url@3.0.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-alphabetical@1.0.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-alphanumerical@1.0.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-arguments@1.1.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-arrayish@0.2.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-buffer@1.1.6 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-core-module@2.5.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-date-object@1.0.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-decimal@1.0.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-extendable@0.1.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+is-extendable@1.0.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-file@1.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+is-fullwidth-code-point@1.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+is-fullwidth-code-point@2.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+is-fullwidth-code-point@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+is-hexadecimal@1.0.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-number@2.1.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+is-number@4.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-number@7.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-obj@1.0.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+is-plain-obj@1.1.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+is-plain-object@2.0.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-regex@1.1.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-regexp@1.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+is-relative-url@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+is-stream@2.0.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-typedarray@1.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-unicode-supported@0.1.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-utf8@0.2.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-whitespace-character@1.0.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+is-word-character@1.0.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+isarray@1.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+isemail@3.2.0 [license(s): BSD-3-Clause]
+└── package.json:  BSD-3-Clause
+
+isexe@2.0.0 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+isobject@2.1.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+isobject@3.0.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+isstream@0.1.2 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+js-tokens@4.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+js-yaml@3.14.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+jsbn@0.1.1 [license(s): MIT]
+└── package.json:  MIT
+
+json-parse-better-errors@1.0.2 [license(s): MIT]
+└── package.json:  MIT
+
+json-parse-even-better-errors@2.3.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+json-schema@0.2.3 [license(s): AFLv2.1, AFLv2.1/BSD, BSD]
+├── package.json:  AFLv2.1, AFLv2.1/BSD, BSD
+└── readme files: BSD
+
+json-schema-traverse@0.4.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+json-stable-stringify@1.0.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+json-stringify-safe@5.0.1 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+json5@2.2.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+jsonify@0.0.0 [license(s): Public Domain]
+└── package.json:  Public Domain
+
+jsprim@1.4.1 [license(s): MIT]
+└── package.json:  MIT
+
+kind-of@3.2.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+kind-of@6.0.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+lazy-cache@2.0.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+levn@0.4.1 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+lines-and-columns@1.1.6 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+link-check@4.5.4 [license(s): ISC]
+└── package.json:  ISC
+
+lint-staged@10.5.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+list-item@1.1.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+listr2@3.11.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+load-json-file@1.1.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+load-json-file@4.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+locate-path@2.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+locate-path@6.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+lodash@4.17.21 [license(s): MIT]
+└── package.json:  MIT
+
+lodash._reinterpolate@3.0.0 [license(s): MIT]
+└── package.json:  MIT
+
+lodash.template@4.5.0 [license(s): MIT]
+└── package.json:  MIT
+
+lodash.templatesettings@4.2.0 [license(s): MIT]
+└── package.json:  MIT
+
+log-symbols@1.0.2 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+log-symbols@4.1.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+log-update@4.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+map-like@2.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+markdown-escapes@1.0.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+markdown-link@0.1.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+markdown-link-check@3.8.7 [license(s): ISC]
+└── package.json:  ISC
+
+markdown-link-extractor@1.3.0 [license(s): ISC]
+└── package.json:  ISC
+
+markdown-toc@1.2.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+marked@2.1.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+math-random@1.0.4 [license(s): MIT]
+└── package.json:  MIT
+
+md5@2.3.0 [license(s): BSD-3-Clause]
+└── package.json:  BSD-3-Clause
+
+merge-stream@2.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+micromatch@4.0.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+mime-db@1.49.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+mime-types@2.1.32 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+mimic-fn@2.1.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+minimatch@3.0.4 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+minimist@1.2.5 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+mixin-deep@1.3.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+mkdirp@0.5.5 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+ms@2.1.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+normalize-package-data@2.5.0 [license(s): BSD, BSD-2-Clause]
+├── package.json:  BSD-2-Clause
+└── license files: BSD
+
+normalize-path@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+npm-run-path@4.0.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+number-is-nan@1.0.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+oauth-sign@0.9.0 [license(s): Apache, Apache-2.0]
+├── package.json:  Apache-2.0
+└── license files: Apache
+
+object-is@1.1.5 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+object-keys@1.1.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+object.pick@1.3.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+once@1.4.0 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+onetime@5.1.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+opencollective-postinstall@2.0.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+optionator@0.9.1 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+p-limit@1.3.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+p-limit@3.1.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+p-locate@2.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+p-locate@5.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+p-map@4.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+p-try@1.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+parent-module@1.0.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+parse-entities@1.2.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+parse-json@2.2.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+parse-json@4.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+parse-json@5.2.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+path-exists@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+path-exists@4.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+path-is-absolute@1.0.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+path-key@3.1.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+path-parse@1.0.7 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+path-to-glob-pattern@1.0.2 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+path-type@1.1.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+path-type@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+path-type@4.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+performance-now@2.1.0 [license(s): MIT]
+└── package.json:  MIT
+
+picomatch@2.3.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+pify@2.3.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+pify@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+pinkie@2.0.4 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+pinkie-promise@2.0.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+pkg-dir@5.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+please-upgrade-node@3.2.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+pluralize@2.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+prelude-ls@1.2.1 [license(s): MIT]
+└── package.json:  MIT
+
+prettier@2.3.2 [license(s): MIT]
+└── package.json:  MIT
+
+process-nextick-args@2.0.1 [license(s): MIT]
+└── package.json:  MIT
+
+progress@2.0.3 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+psl@1.8.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+pump@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+punycode@2.1.1 [license(s): MIT]
+└── package.json:  MIT
+
+qs@6.5.2 [license(s): BSD-3-Clause]
+└── package.json:  BSD-3-Clause
+
+randomatic@3.1.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+rc-config-loader@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+read-pkg@1.1.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+read-pkg@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+read-pkg-up@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+readable-stream@2.3.7 [license(s): MIT]
+└── package.json:  MIT
+
+regexp.prototype.flags@1.3.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+remark-frontmatter@1.3.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+remark-parse@5.0.0 [license(s): MIT]
+└── package.json:  MIT
+
+remarkable@1.7.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+repeat-element@1.1.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+repeat-string@1.6.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+replace-ext@1.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+request@2.88.2 [license(s): Apache, Apache-2.0]
+├── package.json:  Apache-2.0
+└── license files: Apache
+
+require-from-string@2.0.2 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+resolve@1.20.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+resolve-from@4.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+restore-cursor@3.1.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+rimraf@2.6.3 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+rxjs@6.6.7 [license(s): Apache, Apache-2.0]
+├── package.json:  Apache-2.0
+└── license files: Apache
+
+safe-buffer@5.1.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+safer-buffer@2.1.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+semver@5.7.1 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+semver-compare@1.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+semver-regex@3.1.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+set-getter@0.1.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+shebang-command@2.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+shebang-regex@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+signal-exit@3.0.3 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+slash@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+slice-ansi@0.0.4 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+slice-ansi@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+slice-ansi@4.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+source-map@0.6.1 [license(s): BSD-3-Clause]
+└── package.json:  BSD-3-Clause
+
+spdx-correct@3.1.1 [license(s): Apache, Apache-2.0]
+├── package.json:  Apache-2.0
+└── license files: Apache
+
+spdx-exceptions@2.3.0 [license(s): CC-BY-3.0]
+└── package.json:  CC-BY-3.0
+
+spdx-expression-parse@3.0.1 [license(s): BSD, GPL, LGPL, MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: BSD, GPL, LGPL, MIT
+
+spdx-license-ids@3.0.9 [license(s): CC0-1.0]
+└── package.json:  CC0-1.0
+
+sprintf-js@1.0.3 [license(s): BSD, BSD-3-Clause]
+├── package.json:  BSD-3-Clause
+└── readme files: BSD
+
+sshpk@1.16.1 [license(s): MIT]
+└── package.json:  MIT
+
+state-toggle@1.0.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+string-argv@0.3.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+string-width@1.0.2 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+string-width@2.1.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+string-width@4.2.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+string_decoder@1.1.1 [license(s): MIT]
+└── package.json:  MIT
+
+stringify-object@3.3.0 [license(s): BSD-2-Clause]
+└── package.json:  BSD-2-Clause
+
+strip-ansi@3.0.1 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+strip-ansi@4.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+strip-ansi@6.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+strip-bom@2.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+strip-bom@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+strip-color@0.1.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+strip-final-newline@2.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+strip-json-comments@3.1.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+structured-source@3.0.2 [license(s): BSD]
+└── package.json:  BSD
+
+supports-color@2.0.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+supports-color@5.5.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+supports-color@7.2.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+table@3.8.3 [license(s): BSD-3-Clause]
+└── package.json:  BSD-3-Clause
+
+text-table@0.2.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+textlint@11.9.1 [license(s): MIT]
+└── package.json:  MIT
+
+textlint-filter-rule-comments@1.2.2 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+textlint-rule-helper@2.2.0 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+textlint-rule-terminology@2.1.5 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+through@2.3.8 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+through2@2.0.5 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+to-object-path@0.3.0 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+to-regex-range@5.0.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+toml@2.3.6 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+tough-cookie@2.5.0 [license(s): BSD-3-Clause]
+└── package.json:  BSD-3-Clause
+
+traverse@0.6.6 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+trim@0.0.1 [license(s): MIT]
+└── readme files: MIT
+
+trim-trailing-lines@1.1.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+trough@1.0.5 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+try-resolve@1.0.1 [license(s): MIT]
+└── package.json:  MIT
+
+tslib@1.14.1 [license(s): 0BSD]
+└── package.json:  0BSD
+
+tunnel-agent@0.6.0 [license(s): Apache, Apache-2.0]
+├── package.json:  Apache-2.0
+└── license files: Apache
+
+tweetnacl@0.14.5 [license(s): Unlicense]
+└── package.json:  Unlicense
+
+type-check@0.4.0 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+type-fest@0.21.3 [license(s): (MIT OR CC0-1.0), MIT]
+├── package.json:  (MIT OR CC0-1.0)
+└── license files: MIT
+
+typedarray@0.0.6 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+unherit@1.1.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+unified@6.2.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+unique-concat@0.2.2 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+unist-util-is@3.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+unist-util-remove-position@1.1.4 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+unist-util-stringify-position@1.1.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+unist-util-visit@1.4.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+unist-util-visit-parents@2.1.2 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+unorm@1.6.0 [license(s): GPL, MIT, MIT or GPL-2.0]
+├── package.json:  MIT or GPL-2.0
+├── license files: GPL, MIT
+└── readme files: GPL, MIT
+
+uri-js@4.4.1 [license(s): BSD-2-Clause]
+└── package.json:  BSD-2-Clause
+
+uslug@1.0.4 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+util-deprecate@1.0.2 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+uuid@3.4.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+validate-npm-package-license@3.0.4 [license(s): Apache, Apache-2.0]
+├── package.json:  Apache-2.0
+└── license files: Apache
+
+verror@1.10.0 [license(s): MIT]
+└── package.json:  MIT
+
+vfile@2.3.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+vfile-location@2.0.6 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+vfile-message@1.1.1 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+which@2.0.2 [license(s): BSD, ISC]
+├── package.json:  ISC
+├── license files: ISC
+└── readme files: BSD
+
+which-pm-runs@1.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+word-wrap@1.2.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+wrap-ansi@6.2.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+wrap-ansi@7.0.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+wrappy@1.0.2 [license(s): ISC]
+├── package.json:  ISC
+└── license files: ISC
+
+write@1.0.3 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+x-is-string@0.1.0 [license(s): MIT]
+├── package.json:  MIT
+└── readme files: MIT
+
+xml-escape@1.1.0 [license(s): MIT, MIT License]
+├── package.json:  MIT License
+└── license files: MIT
+
+xtend@4.0.2 [license(s): MIT]
+├── package.json:  MIT
+├── license files: MIT
+└── readme files: MIT
+
+yaml@1.10.2 [license(s): ISC]
+├── package.json:  ISC
+└── readme files: ISC
+
+yocto-queue@0.1.0 [license(s): MIT]
+├── package.json:  MIT
+└── license files: MIT
+
+LICENSES:
+├─┬ BSD-3-Clause
+│ ├── @azu/format-text@1.0.1
+│ ├── bcrypt-pbkdf@1.0.2
+│ ├── charenc@0.0.2
+│ ├── crypt@0.0.2
+│ ├── diff@4.0.2
+│ ├── isemail@3.2.0
+│ ├── md5@2.3.0
+│ ├── qs@6.5.2
+│ ├── source-map@0.6.1
+│ ├── sprintf-js@1.0.3
+│ ├── table@3.8.3
+│ └── tough-cookie@2.5.0
+├─┬ WTFPL
+│ └── @azu/style-format@1.0.0
+├─┬ MIT
+│ ├── @babel/code-frame@7.14.5
+│ ├── @babel/helper-validator-identifier@7.14.8
+│ ├── @babel/highlight@7.14.5
+│ ├── @textlint/ast-node-types@4.4.3
+│ ├── @textlint/ast-tester@2.3.5
+│ ├── @textlint/ast-traverse@2.3.5
+│ ├── @textlint/feature-flag@3.3.5
+│ ├── @textlint/fixer-formatter@3.3.5
+│ ├── @textlint/kernel@3.4.5
+│ ├── @textlint/linter-formatter@3.3.5
+│ ├── @textlint/markdown-to-ast@6.3.5
+│ ├── @textlint/module-interop@1.2.5
+│ ├── @textlint/source-code-fixer@3.4.5
+│ ├── @textlint/text-to-ast@3.3.5
+│ ├── @textlint/textlint-plugin-markdown@5.3.5
+│ ├── @textlint/textlint-plugin-text@4.3.5
+│ ├── @textlint/types@1.5.5
+│ ├── @textlint/utils@1.2.5
+│ ├── @types/parse-json@4.0.0
+│ ├── aggregate-error@3.1.0
+│ ├── ajv@4.11.8
+│ ├── ajv@6.12.6
+│ ├── ajv-keywords@1.5.1
+│ ├── ansi-colors@4.1.1
+│ ├── ansi-escapes@4.3.2
+│ ├── ansi-red@0.1.1
+│ ├── ansi-regex@2.1.1
+│ ├── ansi-regex@3.0.0
+│ ├── ansi-regex@5.0.0
+│ ├── ansi-styles@2.2.1
+│ ├── ansi-styles@3.2.1
+│ ├── ansi-styles@4.3.0
+│ ├── ansi-wrap@0.1.0
+│ ├── argparse@1.0.10
+│ ├── asn1@0.2.4
+│ ├── assert-plus@1.0.0
+│ ├── astral-regex@2.0.0
+│ ├── async@3.2.0
+│ ├── asynckit@0.4.0
+│ ├── autolinker@0.28.1
+│ ├── aws4@1.11.0
+│ ├── bail@1.0.5
+│ ├── balanced-match@1.0.2
+│ ├── brace-expansion@1.1.11
+│ ├── braces@3.0.2
+│ ├── buffer-from@1.1.2
+│ ├── call-bind@1.0.2
+│ ├── callsites@3.1.0
+│ ├── chalk@1.1.3
+│ ├── chalk@2.4.2
+│ ├── chalk@4.1.2
+│ ├── character-entities@1.2.4
+│ ├── character-entities-legacy@1.1.4
+│ ├── character-reference-invalid@1.1.4
+│ ├── ci-info@2.0.0
+│ ├── clean-stack@2.2.0
+│ ├── cli-cursor@3.1.0
+│ ├── cli-truncate@2.1.0
+│ ├── co@4.6.0
+│ ├── code-point-at@1.1.0
+│ ├── coffee-script@1.12.7
+│ ├── collapse-white-space@1.0.6
+│ ├── color-convert@1.9.3
+│ ├── color-convert@2.0.1
+│ ├── color-name@1.1.3
+│ ├── color-name@1.1.4
+│ ├── colorette@1.2.2
+│ ├── combined-stream@1.0.8
+│ ├── commander@6.2.1
+│ ├── compare-versions@3.6.0
+│ ├── concat-map@0.0.1
+│ ├── concat-stream@1.6.2
+│ ├── core-util-is@1.0.2
+│ ├── cosmiconfig@7.0.0
+│ ├── cross-spawn@7.0.3
+│ ├── dashdash@1.14.1
+│ ├── debug@4.3.2
+│ ├── dedent@0.7.0
+│ ├── deep-equal@1.1.1
+│ ├── deep-is@0.1.3
+│ ├── define-properties@1.1.3
+│ ├── delayed-stream@1.0.0
+│ ├── diacritics-map@0.1.0
+│ ├── ecc-jsbn@0.1.2
+│ ├── emoji-regex@8.0.0
+│ ├── end-of-stream@1.4.4
+│ ├── enquirer@2.3.6
+│ ├── error-ex@1.3.2
+│ ├── escape-string-regexp@1.0.5
+│ ├── execa@4.1.0
+│ ├── expand-range@1.8.2
+│ ├── extend@3.0.2
+│ ├── extend-shallow@2.0.1
+│ ├── extsprintf@1.3.0
+│ ├── fast-deep-equal@3.1.3
+│ ├── fast-json-stable-stringify@2.1.0
+│ ├── fast-levenshtein@2.0.6
+│ ├── fault@1.0.4
+│ ├── file-entry-cache@5.0.1
+│ ├── fill-range@2.2.4
+│ ├── fill-range@7.0.1
+│ ├── find-up@2.1.0
+│ ├── find-up@5.0.0
+│ ├── find-versions@4.0.0
+│ ├── flat-cache@2.0.1
+│ ├── for-in@1.0.2
+│ ├── form-data@2.3.3
+│ ├── format@0.2.2
+│ ├── fs.realpath@1.0.0
+│ ├── function-bind@1.1.1
+│ ├── get-intrinsic@1.1.1
+│ ├── get-stdin@5.0.1
+│ ├── get-stream@5.2.0
+│ ├── getpass@0.1.7
+│ ├── gray-matter@2.1.1
+│ ├── gulp-header@1.8.12
+│ ├── har-validator@5.1.5
+│ ├── has@1.0.3
+│ ├── has-ansi@2.0.0
+│ ├── has-flag@3.0.0
+│ ├── has-flag@4.0.0
+│ ├── has-symbols@1.0.2
+│ ├── http-signature@1.2.0
+│ ├── husky@4.3.8
+│ ├── import-fresh@3.3.0
+│ ├── indent-string@4.0.0
+│ ├── is-absolute-url@3.0.3
+│ ├── is-alphabetical@1.0.4
+│ ├── is-alphanumerical@1.0.4
+│ ├── is-arguments@1.1.0
+│ ├── is-arrayish@0.2.1
+│ ├── is-buffer@1.1.6
+│ ├── is-core-module@2.5.0
+│ ├── is-date-object@1.0.4
+│ ├── is-decimal@1.0.4
+│ ├── is-extendable@0.1.1
+│ ├── is-extendable@1.0.1
+│ ├── is-file@1.0.0
+│ ├── is-fullwidth-code-point@1.0.0
+│ ├── is-fullwidth-code-point@2.0.0
+│ ├── is-fullwidth-code-point@3.0.0
+│ ├── is-hexadecimal@1.0.4
+│ ├── is-number@2.1.0
+│ ├── is-number@4.0.0
+│ ├── is-number@7.0.0
+│ ├── is-obj@1.0.1
+│ ├── is-plain-obj@1.1.0
+│ ├── is-plain-object@2.0.4
+│ ├── is-regex@1.1.3
+│ ├── is-regexp@1.0.0
+│ ├── is-relative-url@3.0.0
+│ ├── is-stream@2.0.1
+│ ├── is-typedarray@1.0.0
+│ ├── is-unicode-supported@0.1.0
+│ ├── is-utf8@0.2.1
+│ ├── is-whitespace-character@1.0.4
+│ ├── is-word-character@1.0.4
+│ ├── isarray@1.0.0
+│ ├── isobject@2.1.0
+│ ├── isobject@3.0.1
+│ ├── isstream@0.1.2
+│ ├── js-tokens@4.0.0
+│ ├── js-yaml@3.14.1
+│ ├── jsbn@0.1.1
+│ ├── json-parse-better-errors@1.0.2
+│ ├── json-parse-even-better-errors@2.3.1
+│ ├── json-schema-traverse@0.4.1
+│ ├── json-stable-stringify@1.0.1
+│ ├── json5@2.2.0
+│ ├── jsprim@1.4.1
+│ ├── kind-of@3.2.2
+│ ├── kind-of@6.0.3
+│ ├── lazy-cache@2.0.2
+│ ├── levn@0.4.1
+│ ├── lines-and-columns@1.1.6
+│ ├── lint-staged@10.5.4
+│ ├── list-item@1.1.1
+│ ├── listr2@3.11.0
+│ ├── load-json-file@1.1.0
+│ ├── load-json-file@4.0.0
+│ ├── locate-path@2.0.0
+│ ├── locate-path@6.0.0
+│ ├── lodash@4.17.21
+│ ├── lodash._reinterpolate@3.0.0
+│ ├── lodash.template@4.5.0
+│ ├── lodash.templatesettings@4.2.0
+│ ├── log-symbols@1.0.2
+│ ├── log-symbols@4.1.0
+│ ├── log-update@4.0.0
+│ ├── map-like@2.0.0
+│ ├── markdown-escapes@1.0.4
+│ ├── markdown-link@0.1.1
+│ ├── markdown-toc@1.2.0
+│ ├── marked@2.1.3
+│ ├── math-random@1.0.4
+│ ├── merge-stream@2.0.0
+│ ├── micromatch@4.0.4
+│ ├── mime-db@1.49.0
+│ ├── mime-types@2.1.32
+│ ├── mimic-fn@2.1.0
+│ ├── minimist@1.2.5
+│ ├── mixin-deep@1.3.2
+│ ├── mkdirp@0.5.5
+│ ├── ms@2.1.2
+│ ├── normalize-path@3.0.0
+│ ├── npm-run-path@4.0.1
+│ ├── number-is-nan@1.0.1
+│ ├── object-is@1.1.5
+│ ├── object-keys@1.1.1
+│ ├── object.pick@1.3.0
+│ ├── onetime@5.1.2
+│ ├── opencollective-postinstall@2.0.3
+│ ├── optionator@0.9.1
+│ ├── p-limit@1.3.0
+│ ├── p-limit@3.1.0
+│ ├── p-locate@2.0.0
+│ ├── p-locate@5.0.0
+│ ├── p-map@4.0.0
+│ ├── p-try@1.0.0
+│ ├── parent-module@1.0.1
+│ ├── parse-entities@1.2.2
+│ ├── parse-json@2.2.0
+│ ├── parse-json@4.0.0
+│ ├── parse-json@5.2.0
+│ ├── path-exists@3.0.0
+│ ├── path-exists@4.0.0
+│ ├── path-is-absolute@1.0.1
+│ ├── path-key@3.1.1
+│ ├── path-parse@1.0.7
+│ ├── path-to-glob-pattern@1.0.2
+│ ├── path-type@1.1.0
+│ ├── path-type@3.0.0
+│ ├── path-type@4.0.0
+│ ├── performance-now@2.1.0
+│ ├── picomatch@2.3.0
+│ ├── pify@2.3.0
+│ ├── pify@3.0.0
+│ ├── pinkie@2.0.4
+│ ├── pinkie-promise@2.0.1
+│ ├── pkg-dir@5.0.0
+│ ├── please-upgrade-node@3.2.0
+│ ├── pluralize@2.0.0
+│ ├── prelude-ls@1.2.1
+│ ├── prettier@2.3.2
+│ ├── process-nextick-args@2.0.1
+│ ├── progress@2.0.3
+│ ├── psl@1.8.0
+│ ├── pump@3.0.0
+│ ├── punycode@2.1.1
+│ ├── randomatic@3.1.1
+│ ├── rc-config-loader@3.0.0
+│ ├── read-pkg@1.1.0
+│ ├── read-pkg@3.0.0
+│ ├── read-pkg-up@3.0.0
+│ ├── readable-stream@2.3.7
+│ ├── regexp.prototype.flags@1.3.1
+│ ├── remark-frontmatter@1.3.3
+│ ├── remark-parse@5.0.0
+│ ├── remarkable@1.7.4
+│ ├── repeat-element@1.1.4
+│ ├── repeat-string@1.6.1
+│ ├── replace-ext@1.0.0
+│ ├── require-from-string@2.0.2
+│ ├── resolve@1.20.0
+│ ├── resolve-from@4.0.0
+│ ├── restore-cursor@3.1.0
+│ ├── safe-buffer@5.1.2
+│ ├── safer-buffer@2.1.2
+│ ├── semver-compare@1.0.0
+│ ├── semver-regex@3.1.2
+│ ├── set-getter@0.1.1
+│ ├── shebang-command@2.0.0
+│ ├── shebang-regex@3.0.0
+│ ├── slash@3.0.0
+│ ├── slice-ansi@0.0.4
+│ ├── slice-ansi@3.0.0
+│ ├── slice-ansi@4.0.0
+│ ├── spdx-expression-parse@3.0.1
+│ ├── sshpk@1.16.1
+│ ├── state-toggle@1.0.3
+│ ├── string-argv@0.3.1
+│ ├── string-width@1.0.2
+│ ├── string-width@2.1.1
+│ ├── string-width@4.2.2
+│ ├── string_decoder@1.1.1
+│ ├── strip-ansi@3.0.1
+│ ├── strip-ansi@4.0.0
+│ ├── strip-ansi@6.0.0
+│ ├── strip-bom@2.0.0
+│ ├── strip-bom@3.0.0
+│ ├── strip-color@0.1.0
+│ ├── strip-final-newline@2.0.0
+│ ├── strip-json-comments@3.1.1
+│ ├── supports-color@2.0.0
+│ ├── supports-color@5.5.0
+│ ├── supports-color@7.2.0
+│ ├── text-table@0.2.0
+│ ├── textlint@11.9.1
+│ ├── textlint-filter-rule-comments@1.2.2
+│ ├── textlint-rule-helper@2.2.0
+│ ├── textlint-rule-terminology@2.1.5
+│ ├── through@2.3.8
+│ ├── through2@2.0.5
+│ ├── to-object-path@0.3.0
+│ ├── to-regex-range@5.0.1
+│ ├── toml@2.3.6
+│ ├── traverse@0.6.6
+│ ├── trim@0.0.1
+│ ├── trim-trailing-lines@1.1.4
+│ ├── trough@1.0.5
+│ ├── try-resolve@1.0.1
+│ ├── type-check@0.4.0
+│ ├── type-fest@0.21.3
+│ ├── typedarray@0.0.6
+│ ├── unherit@1.1.3
+│ ├── unified@6.2.0
+│ ├── unique-concat@0.2.2
+│ ├── unist-util-is@3.0.0
+│ ├── unist-util-remove-position@1.1.4
+│ ├── unist-util-stringify-position@1.1.2
+│ ├── unist-util-visit@1.4.1
+│ ├── unist-util-visit-parents@2.1.2
+│ ├── unorm@1.6.0
+│ ├── uslug@1.0.4
+│ ├── util-deprecate@1.0.2
+│ ├── uuid@3.4.0
+│ ├── verror@1.10.0
+│ ├── vfile@2.3.0
+│ ├── vfile-location@2.0.6
+│ ├── vfile-message@1.1.1
+│ ├── which-pm-runs@1.0.0
+│ ├── word-wrap@1.2.3
+│ ├── wrap-ansi@6.2.0
+│ ├── wrap-ansi@7.0.0
+│ ├── write@1.0.3
+│ ├── x-is-string@0.1.0
+│ ├── xml-escape@1.1.0
+│ ├── xtend@4.0.2
+│ └── yocto-queue@0.1.0
+├─┬ Apache
+│ ├── aws-sign2@0.7.0
+│ ├── caseless@0.12.0
+│ ├── forever-agent@0.6.1
+│ ├── human-signals@1.1.1
+│ ├── oauth-sign@0.9.0
+│ ├── request@2.88.2
+│ ├── rxjs@6.6.7
+│ ├── spdx-correct@3.1.1
+│ ├── tunnel-agent@0.6.0
+│ └── validate-npm-package-license@3.0.4
+├─┬ Apache-2.0
+│ ├── aws-sign2@0.7.0
+│ ├── caseless@0.12.0
+│ ├── forever-agent@0.6.1
+│ ├── frontity-docs@1.0.0
+│ ├── human-signals@1.1.1
+│ ├── oauth-sign@0.9.0
+│ ├── request@2.88.2
+│ ├── rxjs@6.6.7
+│ ├── spdx-correct@3.1.1
+│ ├── tunnel-agent@0.6.0
+│ └── validate-npm-package-license@3.0.4
+├─┬ BSD
+│ ├── boundary@1.0.1
+│ ├── dictionary-en-au@2.3.0
+│ ├── diff@4.0.2
+│ ├── esprima@4.0.1
+│ ├── json-schema@0.2.3
+│ ├── normalize-package-data@2.5.0
+│ ├── spdx-expression-parse@3.0.1
+│ ├── sprintf-js@1.0.3
+│ ├── structured-source@3.0.2
+│ └── which@2.0.2
+├─┬ ISC
+│ ├── concat-with-sourcemaps@1.1.0
+│ ├── flatted@2.0.2
+│ ├── fs.realpath@1.0.0
+│ ├── get-own-enumerable-property-symbols@3.0.2
+│ ├── glob@7.1.7
+│ ├── graceful-fs@4.2.6
+│ ├── har-schema@2.0.0
+│ ├── hosted-git-info@2.8.9
+│ ├── inflight@1.0.6
+│ ├── inherits@2.0.4
+│ ├── isexe@2.0.0
+│ ├── json-stringify-safe@5.0.1
+│ ├── link-check@4.5.4
+│ ├── markdown-link-check@3.8.7
+│ ├── markdown-link-extractor@1.3.0
+│ ├── minimatch@3.0.4
+│ ├── once@1.4.0
+│ ├── rimraf@2.6.3
+│ ├── semver@5.7.1
+│ ├── signal-exit@3.0.3
+│ ├── which@2.0.2
+│ ├── wrappy@1.0.2
+│ └── yaml@1.10.2
+├─┬ (MIT AND BSD)
+│ └── dictionary-en-au@2.3.0
+├─┬ Public Domain
+│ ├── dictionary-en-au@2.3.0
+│ └── jsonify@0.0.0
+├─┬ BSD-2-Clause
+│ ├── esprima@4.0.1
+│ ├── normalize-package-data@2.5.0
+│ ├── stringify-object@3.3.0
+│ └── uri-js@4.4.1
+├─┬ AFLv2.1
+│ └── json-schema@0.2.3
+├─┬ AFLv2.1/BSD
+│ └── json-schema@0.2.3
+├─┬ CC-BY-3.0
+│ └── spdx-exceptions@2.3.0
+├─┬ GPL
+│ ├── spdx-expression-parse@3.0.1
+│ └── unorm@1.6.0
+├─┬ LGPL
+│ └── spdx-expression-parse@3.0.1
+├─┬ CC0-1.0
+│ └── spdx-license-ids@3.0.9
+├─┬ 0BSD
+│ └── tslib@1.14.1
+├─┬ Unlicense
+│ └── tweetnacl@0.14.5
+├─┬ (MIT OR CC0-1.0)
+│ └── type-fest@0.21.3
+├─┬ MIT or GPL-2.0
+│ └── unorm@1.6.0
+└─┬ MIT License
+  └── xml-escape@1.1.0
+
