@@ -8,6 +8,12 @@ Code:
 
 Updated: 2021-07-30
 
+- [Frontity Docs](#frontity-docs)
+  - [1. Project License](#1-project-license)
+  - [2. Dependency Licenses](#2-dependency-licenses)
+    - [2.1 Ordered by license](#21-ordered-by-license)
+    - [2.2 Ordered by name](#22-ordered-by-name)
+
 ## 1. Project License
 
                                  Apache License
